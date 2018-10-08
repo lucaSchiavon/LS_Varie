@@ -3,7 +3,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-  <asp:Literal ID="LitRe2017ScriptInject" runat="server"></asp:Literal>
+    <asp:Literal ID="LitRe2017ScriptInject" runat="server"></asp:Literal>
        <div id="DivDelete" runat="server" class="ParentDivDeleting Disattivato"><div class="InnerDivDeleting">
        <div class="panel panel-red" style="width:100%;height:100%">
                         <div class="panel-heading">
@@ -159,7 +159,7 @@
                              </asp:Repeater>
                             
                              <div class="row">
-                            <div class="col-sm-6"><div class="dataTables_info" id="dataTables-example_info" role="status" aria-live="polite"><asp:Literal id="LitShowOneOf" runat="server"></asp:Literal>
+                            <div class="col-sm-6"><div class="dataTables_info" id="dataTables-example_info" role="status" aria-live="polite"><asp:Literal id="LitShowOneOf" runat="server"></asp:Literal><br /><asp:Literal id="Literal1" runat="server"></asp:Literal><br /><asp:Literal id="Literal2" runat="server"></asp:Literal>
            </div></div>
 
                                   <div class="col-sm-6">

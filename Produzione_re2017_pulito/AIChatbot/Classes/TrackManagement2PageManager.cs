@@ -12,6 +12,7 @@ using System.Net.Http.Headers;
 using Ls.Prj.Utility;
 using Newtonsoft.Json;
 using System.Globalization;
+using Prj.Utility.Classes;
 
 namespace Re2017.Classes
 {
@@ -258,6 +259,20 @@ namespace Re2017.Classes
             }
         }
 
+        //public void GetAlm(LuisEntityAlarmDTO ObjLuisEntityAlarmDTO)
+        //{
+
+        //    var myContent = JsonConvert.SerializeObject(ObjLuisEntityAlarmDTO);
+        //    var buffer = System.Text.Encoding.UTF8.GetBytes(myContent);
+        //    var byteContent = new ByteArrayContent(buffer);
+        //    byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+        //    var result = client.PostAsync("GetAlarms", byteContent).Result;
+        //    if (!result.IsSuccessStatusCode)
+        //    {
+        //        throw new Exception("An error occurred during creation of the event.");
+        //    }
+        //}
+
         public void UpdateBrotherEvt(UpdateBrotherEvtDto ObjUpdateBrotherEvtDto)
         {
 
@@ -306,8 +321,12 @@ namespace Re2017.Classes
             HttpResponseMessage response = await client.GetAsync(path, HttpCompletionOption.ResponseHeadersRead).ConfigureAwait(false);
             if (response.IsSuccessStatusCode)
             {
+                //FileLogger ObjFileLogger = new FileLogger(HttpContext.Current.Server.MapPath("~"));
+                //ObjFileLogger.Log(response.StatusCode.ToString(), Prj.Utility.Base.Typology.Info);
+                //HttpContext.Current.Response.Cookies["StatusCode"].Value = response.StatusCode.ToString();
                 Lstevt = await response.Content.ReadAsAsync<List<EventTypeDTO>>();
             }
+            //HttpContext.Current.Response.Cookies["StatusCode"].Value = response.StatusCode.;
             return Lstevt;
         }
 

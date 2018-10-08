@@ -14,6 +14,8 @@ using Ls.Prj.Utility;
 using Re2017;
 using Re2017.Classes;
 using System.Globalization;
+using Prj.Utility.Classes;
+using Prj.Utility.Base;
 
 namespace Ls.Re2017.Contents
 {
@@ -88,12 +90,24 @@ namespace Ls.Re2017.Contents
         
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+            Literal1.Text = Utility.ReadSetting("Re2017ApiUrl");
             try
             {
+                //FileLogger ObjFileLogger = new FileLogger(HttpContext.Current.Server.MapPath("~"));
+                //ObjFileLogger.Log("probva", Typology.Info);
+
                 TrackManagement2PageManager ObjTrackManagement2PageManager = new TrackManagement2PageManager();
-                LstEvtType = ObjTrackManagement2PageManager.GetEventsType();
-                LstHouse = ObjTrackManagement2PageManager.GetHouse();
+                //try
+                //{
+                    //LstEvtType = ObjTrackManagement2PageManager.GetEventsType();
+                //}
+                //catch (Exception ex)
+                //{
+                //    FileLogger ObjFileLogger = new FileLogger(HttpContext.Current.Server.MapPath("~"));
+                //    ObjFileLogger.Log(ex.InnerException.Message, Typology.Info);
+                //}
+
+                //LstHouse = ObjTrackManagement2PageManager.GetHouse();
                 if (!Page.IsPostBack)
                 {
                     if (Request.Cookies["TxtDa"] == null)
@@ -140,11 +154,12 @@ namespace Ls.Re2017.Contents
                 //ObjUpdateHouseEvtInputDto.houseId = 7;
                 //ObjTrackManagement2PageManager.UpdateHouseEvt(ObjUpdateHouseEvtInputDto);
                 ////*****************
-
-
+                //Label1.Text = Request.Cookies["StatusCode"].Value;
+               
             }
             catch (Exception ex)
             {
+                //Label1.Text = Request.Cookies["StatusCode"].Value;
                 PrintError(ex);
             }
 

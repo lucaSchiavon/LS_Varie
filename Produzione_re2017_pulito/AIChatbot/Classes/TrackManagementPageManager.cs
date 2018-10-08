@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using Ls.Prj.Utility;
+using Newtonsoft.Json;
 
 namespace Re2017.Classes
 {
@@ -173,6 +174,33 @@ namespace Re2017.Classes
             }
             return LstBank;
         }
-      
+
+     
+
+        //public static List<AlmHistoryDTO> GetAlarm()
+        //{
+
+        //    client.BaseAddress = new Uri("https://webappgsk-api.azurewebsites.net/api/ContentsRepository/");
+        //    // client.BaseAddress = new Uri("http://2.235.241.7:8080/");
+        //    client.DefaultRequestHeaders.Accept.Clear();
+        //    client.DefaultRequestHeaders.Accept.Add(
+        //        new MediaTypeWithQualityHeaderValue("application/json"));
+        //    List<AlmHistoryDTO> LstBanks = new List<AlmHistoryDTO>();
+
+        //    LstBanks = GetAlarmAsync("GetAlarms").Result;
+
+        //    return LstBanks;
+        //}
+        //static async Task<List<AlmHistoryDTO>> GetAlarmAsync(string path)
+        //{
+        //    List<AlmHistoryDTO> LstBank = null;
+        //    HttpResponseMessage response = await client.GetAsync(path, HttpCompletionOption.ResponseHeadersRead).ConfigureAwait(false);
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        LstBank = await response.Content.ReadAsAsync<List<AlmHistoryDTO>>();
+        //    }
+        //    return LstBank;
+        //}
+
     }
 }
