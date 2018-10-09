@@ -99,7 +99,7 @@ namespace Ls.Re2017.Contents
                 TrackManagement2PageManager ObjTrackManagement2PageManager = new TrackManagement2PageManager();
                 //try
                 //{
-                    //LstEvtType = ObjTrackManagement2PageManager.GetEventsType();
+                    LstEvtType = ObjTrackManagement2PageManager.GetEventsType();
                 //}
                 //catch (Exception ex)
                 //{
@@ -107,7 +107,7 @@ namespace Ls.Re2017.Contents
                 //    ObjFileLogger.Log(ex.InnerException.Message, Typology.Info);
                 //}
 
-                //LstHouse = ObjTrackManagement2PageManager.GetHouse();
+                LstHouse = ObjTrackManagement2PageManager.GetHouse();
                 if (!Page.IsPostBack)
                 {
                     if (Request.Cookies["TxtDa"] == null)

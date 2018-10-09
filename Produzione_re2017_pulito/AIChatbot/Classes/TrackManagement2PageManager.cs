@@ -84,6 +84,8 @@ namespace Re2017.Classes
        public TrackManagement2PageManager()
         {
             client.BaseAddress = new Uri(Utility.ReadSetting("Re2017ApiUrl"));
+            //client.BaseAddress = new Uri("http://re2017server.sytes.net/");
+            //
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
