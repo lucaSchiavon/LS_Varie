@@ -32,7 +32,7 @@
     <![endif]-->
 
 </head>
-<body style="background-image:url('../Public/Images/estate2_ratio_lunga.jpg');background-repeat: no-repeat;background-position: center;background-size: cover;">
+<body style="background-image:url('../Public/Images/estate2_ratio_lungax.jpg');background-repeat: no-repeat;background-position: center;background-size: cover;">
     <form id="form1" runat="server">
          <div class="container">
         <div class="row">

@@ -11,6 +11,8 @@ using System.Text;
 using Ls.Prj.DTO;
 using AIChatbot.Base;
 using Re2017.Classes;
+using Newtonsoft.Json.Linq;
+using System.Web.Script.Serialization;
 
 namespace AQuest.ChatBotGsk.PigeonCms.pgn_content.Contents
 {
@@ -157,22 +159,55 @@ namespace AQuest.ChatBotGsk.PigeonCms.pgn_content.Contents
         protected void Button1_Click(object sender, EventArgs e)
         {
             TrackManagement3PageManager ObjTrackManagement3PageManager = new TrackManagement3PageManager();
+            TrackManagement4PageManager ObjTrackManagement4PageManager = new TrackManagement4PageManager();
             //recupera l'evento da cui si arriva
 
 
             try
             {
+                ContainerDTO ObjCont = ObjTrackManagement4PageManager.GetFaq();
 
-                //https://apiapp.swoords.com/api/Utenti/GetLogin?Email=tanta.roba@libero.it6&Password=tantaroba
-                ContainerDTO ObjCont = ObjTrackManagement3PageManager.GetLogin("tanta.roba@libero.it", "tantaroba");
+                //JArray jsonResponse = JArray.Parse(ObjCont.payload[0].faq);
+
+                //foreach (var item in jsonResponse)
+                //{
+                   
+                //        //string rItemKey = rItem.Key;
+                //        //JObject rItemValueJson = (JObject)rItem.Value;
+                //        //Races rowsResult = item.Value<JObject>("races").ToObject<Races>();
+                   
+                //}
+
+
+                FreqAnsQDTO[] LstFaq = null;
                 if (ObjCont.success == true)
                 {
-                    string a = ObjCont.payload[0].LoginSuccess;
-                }
-                Label2.Text = ObjCont.success.ToString();
+                    string jSON = ObjCont.payload[0].ToString();
+                    FaqsDTO ObjFaqsDTO = new System.Web.Script.Serialization.JavaScriptSerializer().Deserialize<FaqsDTO>(jSON);
+                  
+                    //JavaScriptSerializer ser = new JavaScriptSerializer();
+                    //var r = ser.Deserialize<FaqsDTO>(ObjCont.payload[0]);
+                    //var r = ser.Deserialize<FaqsDTO>(ObjCont.payload[0].faq);
+                    foreach (FreqAnsQDTO curr in ObjFaqsDTO.faq)
+                    {
+                        Label2.Text += curr.question + "<br>";
+                    }
 
-                //Utente ObjUser = ObjTrackManagement3PageManager.GetUser(36);
-                //Label1.Text = ObjUser.Nickname;
+
+                }
+
+               
+
+               
+               ////https://apiapp.swoords.com/api/Utenti/GetLogin?Email=tanta.roba@libero.it6&Password=tantaroba
+               //ContainerDTO ObjCont2 = ObjTrackManagement3PageManager.GetLogin("tanta.roba@libero.it", "tantaroba");
+               // if (ObjCont.success == true)
+               // {
+               //     string a = ObjCont2.payload[0].LoginSuccess;
+               // }
+               // Label2.Text = ObjCont2.success.ToString();
+
+               
 
 
             }

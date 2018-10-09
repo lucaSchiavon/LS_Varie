@@ -6,6 +6,16 @@ using System.Threading.Tasks;
 
 namespace Ls.Prj.DTO
 {
+    public class FaqsDTO
+    {
+        public FreqAnsQDTO[] faq;
+    }
+    public class FreqAnsQDTO
+    {
+        public int id;
+        public string question;
+        public string answer;
+    }
     public class ContainerDTO
     {
         /// <summary>
