@@ -78,7 +78,7 @@
     <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
 
-    <script type="text/javascript" src="/vendor/plugin/cookies/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/lucafreehostasp/vendor/plugin/cookies/jquery.cookie.js"></script>
      <script type="text/javascript">
          $(document).ready(function() {
              $(".fancybox").fancybox();

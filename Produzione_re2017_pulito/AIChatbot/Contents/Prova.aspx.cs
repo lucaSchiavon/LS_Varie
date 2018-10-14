@@ -163,38 +163,29 @@ namespace AQuest.ChatBotGsk.PigeonCms.pgn_content.Contents
             //recupera l'evento da cui si arriva
 
 
-            try
-            {
-                ContainerDTO ObjCont = ObjTrackManagement4PageManager.GetFaq();
-
-                //JArray jsonResponse = JArray.Parse(ObjCont.payload[0].faq);
-
-                //foreach (var item in jsonResponse)
-                //{
-                   
-                //        //string rItemKey = rItem.Key;
-                //        //JObject rItemValueJson = (JObject)rItem.Value;
-                //        //Races rowsResult = item.Value<JObject>("races").ToObject<Races>();
-                   
-                //}
-
-
-                FreqAnsQDTO[] LstFaq = null;
-                if (ObjCont.success == true)
+            //try
+            //{
+                //ContainerDTO ObjCont = ObjTrackManagement4PageManager.GetFaq();
+                List<EventTypeDTO> ObjCont = ObjTrackManagement4PageManager.GetFaq();
+                foreach (EventTypeDTO curr in ObjCont)
                 {
-                    string jSON = ObjCont.payload[0].ToString();
-                    FaqsDTO ObjFaqsDTO = new System.Web.Script.Serialization.JavaScriptSerializer().Deserialize<FaqsDTO>(jSON);
-                  
-                    //JavaScriptSerializer ser = new JavaScriptSerializer();
-                    //var r = ser.Deserialize<FaqsDTO>(ObjCont.payload[0]);
-                    //var r = ser.Deserialize<FaqsDTO>(ObjCont.payload[0].faq);
-                    foreach (FreqAnsQDTO curr in ObjFaqsDTO.faq)
-                    {
-                        Label2.Text += curr.question + "<br>";
-                    }
-
-
+                    Label2.Text += curr.displayValue + "<br>";
                 }
+
+                //FreqAnsQDTO[] LstFaq = null;
+                //if (ObjCont.success == true)
+                //{
+                //    string jSON = ObjCont.payload[0].ToString();
+                //    FaqsDTO ObjFaqsDTO = new System.Web.Script.Serialization.JavaScriptSerializer().Deserialize<FaqsDTO>(jSON);
+                  
+                   
+                //    foreach (FreqAnsQDTO curr in ObjFaqsDTO.faq)
+                //    {
+                //        Label2.Text += curr.question + "<br>";
+                //    }
+
+
+                //}
 
                
 
@@ -210,11 +201,11 @@ namespace AQuest.ChatBotGsk.PigeonCms.pgn_content.Contents
                
 
 
-            }
-            catch (Exception ex)
-            {
-                PrintError(ex);
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //    PrintError(ex);
+            //}
         }
     }
 
