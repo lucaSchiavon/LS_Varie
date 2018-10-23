@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlmHistoryDTO.cs" />
+    <Compile Include="ResultDto.cs" />
+    <Compile Include="RecipeDto.cs" />
     <Compile Include="InsertEvtInputDto.cs" />
     <Compile Include="UpdateBrotherEvtDto.cs" />
     <Compile Include="UpdateHouseEvtInputDto.cs" />

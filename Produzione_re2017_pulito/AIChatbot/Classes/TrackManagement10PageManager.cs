@@ -12,10 +12,11 @@ using System.Net.Http.Headers;
 using Ls.Prj.Utility;
 using Newtonsoft.Json;
 using System.Globalization;
+using System.Web.Script.Serialization;
 
-namespace Re2017.Classes
+namespace AIChatbot.Classes
 {
-     public  class TrackManagement4PageManager
+     public  class TrackManagement10PageManager
     {
 
       
@@ -23,12 +24,15 @@ namespace Re2017.Classes
 
          HttpClient client = new HttpClient();
 
-       public TrackManagement4PageManager()
+       public TrackManagement10PageManager()
         {
-            client.BaseAddress = new Uri("http://webappvetrocar-preprod.azurewebsites.net/api/v1/");
-            //client.BaseAddress = new Uri("http://re2017server.sytes.net/");
+           
+            client.BaseAddress = new Uri("http://www.recipepuppy.com/api/");
             
             client.DefaultRequestHeaders.Accept.Clear();
+            //text/javascript
+            //client.DefaultRequestHeaders.Accept.Add(
+            //   new MediaTypeWithQualityHeaderValue("text/javascript"));
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
         }
@@ -45,13 +49,13 @@ namespace Re2017.Classes
         //    return ObjContainer;
 
         //}
-        public FaqsDTO GetFaq()
+        public RecipeDTO GetRecipe()
         {
 
-            FaqsDTO ObjContainer = null;
+            RecipeDTO ObjContainer = null;
 
             //ObjContainer = GetAsyncFaq("Faq").Result;
-            ObjContainer = GetAsyncFaq("Faq").Result;
+            ObjContainer = GetAsyncRecipe("?i=onions,garlic&q=omelet&p=3").Result;
 
             return ObjContainer;
 
@@ -71,17 +75,20 @@ namespace Re2017.Classes
         //    return ObjEvento;
         //}
 
-        public async Task<FaqsDTO> GetAsyncFaq(string path)
+        public async Task<RecipeDTO> GetAsyncRecipe(string path)
         {
-            FaqsDTO ObjEvento = null;
-            HttpResponseMessage response = await client.GetAsync(path, HttpCompletionOption.ResponseHeadersRead).ConfigureAwait(false);
-            if (response.IsSuccessStatusCode)
-            {
-                ObjEvento = await response.Content.ReadAsAsync<FaqsDTO>();
+            //RecipeDTO ObjEvento = null;
+            // HttpResponseMessage response = await client.GetAsync(path, HttpCompletionOption.ResponseHeadersRead).ConfigureAwait(false);
+            string response = await client.GetStringAsync(path).ConfigureAwait(false);
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            RecipeDTO blogObject = js.Deserialize<RecipeDTO>(response);
+            //if (response.IsSuccessStatusCode)
+            //{
+            //    ObjEvento = await response.Content.ReadAsAsync<RecipeDTO>();
 
 
-            }
-            return ObjEvento;
+            //}
+            return blogObject;
         }
 
     }

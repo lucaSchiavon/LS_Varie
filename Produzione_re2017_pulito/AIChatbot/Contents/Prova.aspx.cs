@@ -158,47 +158,51 @@ namespace AQuest.ChatBotGsk.PigeonCms.pgn_content.Contents
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            TrackManagement3PageManager ObjTrackManagement3PageManager = new TrackManagement3PageManager();
+            // TrackManagement3PageManager ObjTrackManagement3PageManager = new TrackManagement3PageManager();
             TrackManagement4PageManager ObjTrackManagement4PageManager = new TrackManagement4PageManager();
             //recupera l'evento da cui si arriva
 
 
-            //try
-            //{
-                //ContainerDTO ObjCont = ObjTrackManagement4PageManager.GetFaq();
-                List<EventTypeDTO> ObjCont = ObjTrackManagement4PageManager.GetFaq();
-                foreach (EventTypeDTO curr in ObjCont)
+
+            ContainerDTO ObjCont = ObjTrackManagement4PageManager.GetFaq();
+            List<FreqAnsQDTO> lst= ObjCont.payload
+            foreach (FreqAnsQDTO curr in ObjCont.faq)
+            {
+                Label2.Text += curr.question + "<br>";
+            }
+            try
+            {
+                TrackManagement10PageManager ObjTrackManagement10PageManager = new TrackManagement10PageManager();
+                RecipeDTO obj = ObjTrackManagement10PageManager.GetRecipe();
+                if (obj == null)
                 {
-                    Label2.Text += curr.displayValue + "<br>";
+                    Label3.Text = "oggetto nullo";
                 }
+                else
+                {
+                    Label3.Text = obj.title;
+                }
+            }
+            catch (Exception ex)
+            {
+                Label3.Text = ex.Message;
+            }
+           
+           
+          
 
-                //FreqAnsQDTO[] LstFaq = null;
-                //if (ObjCont.success == true)
-                //{
-                //    string jSON = ObjCont.payload[0].ToString();
-                //    FaqsDTO ObjFaqsDTO = new System.Web.Script.Serialization.JavaScriptSerializer().Deserialize<FaqsDTO>(jSON);
-                  
-                   
-                //    foreach (FreqAnsQDTO curr in ObjFaqsDTO.faq)
-                //    {
-                //        Label2.Text += curr.question + "<br>";
-                //    }
 
 
-                //}
 
-               
+            ////https://apiapp.swoords.com/api/Utenti/GetLogin?Email=tanta.roba@libero.it6&Password=tantaroba
+            //ContainerDTO ObjCont2 = ObjTrackManagement3PageManager.GetLogin("tanta.roba@libero.it", "tantaroba");
+            // if (ObjCont.success == true)
+            // {
+            //     string a = ObjCont2.payload[0].LoginSuccess;
+            // }
+            // Label2.Text = ObjCont2.success.ToString();
 
-               
-               ////https://apiapp.swoords.com/api/Utenti/GetLogin?Email=tanta.roba@libero.it6&Password=tantaroba
-               //ContainerDTO ObjCont2 = ObjTrackManagement3PageManager.GetLogin("tanta.roba@libero.it", "tantaroba");
-               // if (ObjCont.success == true)
-               // {
-               //     string a = ObjCont2.payload[0].LoginSuccess;
-               // }
-               // Label2.Text = ObjCont2.success.ToString();
 
-               
 
 
             //}
