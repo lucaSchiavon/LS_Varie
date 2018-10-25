@@ -1,0 +1,82 @@
+2018-09-28 09:07:25.990 +02:00 [Debug] Status: 0 Connections "13,2MB" Memory Used
+2018-09-28 09:08:46.051 +02:00 [Debug] Status: 0 Connections "13,6MB" Memory Used
+2018-09-28 09:27:26.036 +02:00 [Debug] Status: 0 Connections "13,6MB" Memory Used
+2018-09-28 09:28:46.082 +02:00 [Debug] Status: 0 Connections "13,6MB" Memory Used
+2018-09-28 09:47:25.990 +02:00 [Debug] Status: 0 Connections "13,6MB" Memory Used
+2018-09-28 09:48:46.039 +02:00 [Debug] Status: 0 Connections "13,6MB" Memory Used
+2018-09-28 10:07:25.947 +02:00 [Debug] Status: 0 Connections "12,3MB" Memory Used
+2018-09-28 10:08:45.995 +02:00 [Debug] Status: 0 Connections "12,3MB" Memory Used
+2018-09-28 10:27:25.899 +02:00 [Debug] Status: 0 Connections "12,3MB" Memory Used
+2018-09-28 10:28:45.947 +02:00 [Debug] Status: 0 Connections "12,3MB" Memory Used
+2018-09-28 10:47:25.843 +02:00 [Debug] Status: 0 Connections "12,4MB" Memory Used
+2018-09-28 10:48:45.891 +02:00 [Debug] Status: 0 Connections "12,4MB" Memory Used
+2018-09-28 11:07:25.796 +02:00 [Debug] Status: 0 Connections "12,4MB" Memory Used
+2018-09-28 11:08:45.845 +02:00 [Debug] Status: 0 Connections "12,4MB" Memory Used
+2018-09-28 11:27:25.738 +02:00 [Debug] Status: 0 Connections "12,5MB" Memory Used
+2018-09-28 11:28:45.796 +02:00 [Debug] Status: 0 Connections "12,6MB" Memory Used
+2018-09-28 11:47:25.713 +02:00 [Debug] Status: 0 Connections "12,7MB" Memory Used
+2018-09-28 11:48:45.771 +02:00 [Debug] Status: 0 Connections "12,8MB" Memory Used
+2018-09-28 12:07:25.665 +02:00 [Debug] Status: 0 Connections "12,8MB" Memory Used
+2018-09-28 12:08:45.722 +02:00 [Debug] Status: 0 Connections "12,9MB" Memory Used
+2018-09-28 12:27:25.625 +02:00 [Debug] Status: 0 Connections "13MB" Memory Used
+2018-09-28 12:28:45.685 +02:00 [Debug] Status: 0 Connections "13,1MB" Memory Used
+2018-09-28 12:47:25.589 +02:00 [Debug] Status: 0 Connections "13,2MB" Memory Used
+2018-09-28 12:48:45.638 +02:00 [Debug] Status: 0 Connections "13,2MB" Memory Used
+2018-09-28 13:07:25.474 +02:00 [Debug] Status: 0 Connections "13,2MB" Memory Used
+2018-09-28 13:08:45.520 +02:00 [Debug] Status: 0 Connections "13,2MB" Memory Used
+2018-09-28 13:27:25.419 +02:00 [Debug] Status: 0 Connections "13,2MB" Memory Used
+2018-09-28 13:28:45.480 +02:00 [Debug] Status: 0 Connections "13,4MB" Memory Used
+2018-09-28 13:47:25.456 +02:00 [Debug] Status: 0 Connections "13,5MB" Memory Used
+2018-09-28 13:48:45.518 +02:00 [Debug] Status: 0 Connections "13,6MB" Memory Used
+2018-09-28 14:07:25.403 +02:00 [Debug] Status: 0 Connections "13,7MB" Memory Used
+2018-09-28 14:08:45.460 +02:00 [Debug] Status: 0 Connections "13,9MB" Memory Used
+2018-09-28 14:27:25.355 +02:00 [Debug] Status: 0 Connections "13,9MB" Memory Used
+2018-09-28 14:28:45.413 +02:00 [Debug] Status: 0 Connections "13,9MB" Memory Used
+2018-09-28 14:42:01.909 +02:00 [Information] Configuration Result:
+"[Success] Name PapercutServerService
+[Success] DisplayName Papercut SMTP Service
+[Success] Description Papercut SMTP Backend Service
+[Success] ServiceName PapercutServerService"
+2018-09-28 14:42:01.981 +02:00 [Information] "Topshelf" v"3.3.154.0", .NET Framework v"4.0.30319.42000"
+2018-09-28 14:42:02.049 +02:00 [Debug] Started by the Windows services process
+2018-09-28 14:42:02.049 +02:00 [Debug] Running as a service, creating service host.
+2018-09-28 14:42:02.051 +02:00 [Information] Starting as a Windows service
+2018-09-28 14:42:02.053 +02:00 [Debug] [Topshelf] Starting up as a windows service application
+2018-09-28 14:42:02.054 +02:00 [Information] [Topshelf] Starting
+2018-09-28 14:42:02.055 +02:00 [Debug] [Topshelf] Current Directory: "C:\Program Files (x86)\Changemaker Studios\Papercut"
+2018-09-28 14:42:02.055 +02:00 [Debug] [Topshelf] Arguments: ""
+2018-09-28 14:42:02.103 +02:00 [Information] Publishing PapercutServicePreStartEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client
+2018-09-28 14:42:03.201 +02:00 [Information] [Topshelf] Started
+2018-09-28 14:42:04.214 +02:00 [Information] Starting Server Papercut
+2018-09-28 14:42:04.217 +02:00 [Information] Starting Server Smtp
+2018-09-28 14:42:04.230 +02:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2018-09-28 14:42:04.230 +02:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37403
+2018-09-28 14:42:04.245 +02:00 [Information] Running Plug-In "WebUI" "1.0.0" "Provides a web UI to manage the email messages for Papercut."
+2018-09-28 14:42:04.245 +02:00 [Information] Running Plug-In "Verbose (JSON) Serilog Logging" "5.1.23.0" "Verbose (JSON) Serilog Logging Support for Papercut"
+2018-09-28 14:42:04.245 +02:00 [Information] Running Plug-In "Papercut Seq Logging" "1.0.0.0" "Papercut Serilog to Seq (http://getseq.net) local instance"
+2018-09-28 14:42:04.589 +02:00 [Information] WebUI server started at port 37408.
+2018-09-28 14:42:04.589 +02:00 [Information] Publishing PapercutServiceReadyEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client
+2018-09-28 15:45:24.596 +02:00 [Information] Configuration Result:
+"[Success] Name PapercutServerService
+[Success] DisplayName Papercut SMTP Service
+[Success] Description Papercut SMTP Backend Service
+[Success] ServiceName PapercutServerService"
+2018-09-28 15:45:24.667 +02:00 [Information] "Topshelf" v"3.3.154.0", .NET Framework v"4.0.30319.42000"
+2018-09-28 15:45:24.734 +02:00 [Debug] Started by the Windows services process
+2018-09-28 15:45:24.734 +02:00 [Debug] Running as a service, creating service host.
+2018-09-28 15:45:24.736 +02:00 [Information] Starting as a Windows service
+2018-09-28 15:45:24.738 +02:00 [Debug] [Topshelf] Starting up as a windows service application
+2018-09-28 15:45:24.740 +02:00 [Information] [Topshelf] Starting
+2018-09-28 15:45:24.741 +02:00 [Debug] [Topshelf] Current Directory: "C:\Program Files (x86)\Changemaker Studios\Papercut"
+2018-09-28 15:45:24.741 +02:00 [Debug] [Topshelf] Arguments: ""
+2018-09-28 15:45:24.779 +02:00 [Information] Publishing PapercutServicePreStartEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client
+2018-09-28 15:45:25.901 +02:00 [Information] [Topshelf] Started
+2018-09-28 15:45:26.914 +02:00 [Information] Starting Server Papercut
+2018-09-28 15:45:26.914 +02:00 [Information] Starting Server Smtp
+2018-09-28 15:45:26.932 +02:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2018-09-28 15:45:26.932 +02:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37403
+2018-09-28 15:45:26.946 +02:00 [Information] Running Plug-In "WebUI" "1.0.0" "Provides a web UI to manage the email messages for Papercut."
+2018-09-28 15:45:26.946 +02:00 [Information] Running Plug-In "Verbose (JSON) Serilog Logging" "5.1.23.0" "Verbose (JSON) Serilog Logging Support for Papercut"
+2018-09-28 15:45:26.946 +02:00 [Information] Running Plug-In "Papercut Seq Logging" "1.0.0.0" "Papercut Serilog to Seq (http://getseq.net) local instance"
+2018-09-28 15:45:27.292 +02:00 [Information] WebUI server started at port 37408.
+2018-09-28 15:45:27.293 +02:00 [Information] Publishing PapercutServiceReadyEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client

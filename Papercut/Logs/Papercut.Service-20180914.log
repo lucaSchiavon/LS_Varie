@@ -1,0 +1,73 @@
+2018-09-14 09:06:54.016 +02:00 [Information] Configuration Result:
+"[Success] Name PapercutServerService
+[Success] DisplayName Papercut SMTP Service
+[Success] Description Papercut SMTP Backend Service
+[Success] ServiceName PapercutServerService"
+2018-09-14 09:06:54.229 +02:00 [Information] "Topshelf" v"3.3.154.0", .NET Framework v"4.0.30319.42000"
+2018-09-14 09:06:54.350 +02:00 [Debug] Started by the Windows services process
+2018-09-14 09:06:54.350 +02:00 [Debug] Running as a service, creating service host.
+2018-09-14 09:06:54.355 +02:00 [Information] Starting as a Windows service
+2018-09-14 09:06:54.367 +02:00 [Debug] [Topshelf] Starting up as a windows service application
+2018-09-14 09:06:54.393 +02:00 [Information] [Topshelf] Starting
+2018-09-14 09:06:54.395 +02:00 [Debug] [Topshelf] Current Directory: "C:\Program Files (x86)\Changemaker Studios\Papercut"
+2018-09-14 09:06:54.395 +02:00 [Debug] [Topshelf] Arguments: ""
+2018-09-14 09:06:54.444 +02:00 [Information] Publishing PapercutServicePreStartEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client
+2018-09-14 09:06:55.558 +02:00 [Information] [Topshelf] Started
+2018-09-14 09:06:56.565 +02:00 [Information] Starting Server Smtp
+2018-09-14 09:06:56.565 +02:00 [Information] Starting Server Papercut
+2018-09-14 09:06:56.572 +02:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2018-09-14 09:06:56.572 +02:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37403
+2018-09-14 09:06:56.588 +02:00 [Information] Running Plug-In "WebUI" "1.0.0" "Provides a web UI to manage the email messages for Papercut."
+2018-09-14 09:06:56.588 +02:00 [Information] Running Plug-In "Verbose (JSON) Serilog Logging" "5.1.23.0" "Verbose (JSON) Serilog Logging Support for Papercut"
+2018-09-14 09:06:56.588 +02:00 [Information] Running Plug-In "Papercut Seq Logging" "1.0.0.0" "Papercut Serilog to Seq (http://getseq.net) local instance"
+2018-09-14 09:06:56.946 +02:00 [Information] WebUI server started at port 37408.
+2018-09-14 09:06:56.947 +02:00 [Information] Publishing PapercutServiceReadyEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client
+2018-09-14 17:41:59.094 +02:00 [Debug] Sending Line "PAPERCUT"
+2018-09-14 17:41:59.175 +02:00 [Debug] New Connection 1 from "127.0.0.1:58918"
+2018-09-14 17:41:59.192 +02:00 [Debug] Initializing Background Processes...
+2018-09-14 17:41:59.349 +02:00 [Debug] Received Line "{\"CommandType\":2,\"Type\":\"Papercut.Core.Infrastructure.Network.AppProcessExchangeEvent, Papercut.Core, Version=5.1.23.0, Culture=neutral, PublicKeyToken=null\",\"ByteSize\":44}"
+2018-09-14 17:41:59.754 +02:00 [Information] Publishing Event Received AppProcessExchangeEvent { MessageWritePath: null, IP: null, Port: 0 } from Remote
+2018-09-14 17:41:59.895 +02:00 [Information] Loading Messages from the Following Path(s) ["C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming"]
+2018-09-14 17:41:59.902 +02:00 [Information] Default Message Save Path is Set to "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming"
+2018-09-14 17:41:59.910 +02:00 [Information] Exchanging Event AppProcessExchangeEvent { MessageWritePath: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming", IP: "Any", Port: 25 } -- Pushing to Remote
+2018-09-14 17:41:59.978 +02:00 [Debug] Sending Line "{\"MessageWritePath\":\"C:\\Program Files (x86)\\Changemaker Studios\\Papercut\\Incoming\",\"IP\":\"Any\",\"Port\":25}"
+2018-09-14 17:42:00.084 +02:00 [Debug] Connection 1 Closed
+2018-09-14 17:42:08.763 +02:00 [Debug] Sending Line "PAPERCUT"
+2018-09-14 17:42:08.763 +02:00 [Debug] New Connection 2 from "127.0.0.1:58937"
+2018-09-14 17:42:08.774 +02:00 [Debug] Received Line "{\"CommandType\":1,\"Type\":\"Papercut.Core.Domain.Rules.RulesUpdatedEvent, Papercut.Core, Version=5.1.23.0, Culture=neutral, PublicKeyToken=null\",\"ByteSize\":12}"
+2018-09-14 17:42:08.840 +02:00 [Information] Publishing Event Received RulesUpdatedEvent { Rules: [] } from Remote
+2018-09-14 17:42:08.876 +02:00 [Information] Saved 0 to "C:\Program Files (x86)\Changemaker Studios\Papercut\rules.json"
+2018-09-14 17:42:08.877 +02:00 [Debug] Connection 2 Closed
+2018-09-14 17:42:59.259 +02:00 [Debug] Status: 0 Connections "33,9MB" Memory Used
+2018-09-14 17:43:19.167 +02:00 [Debug] Sending Line "220 telmor"
+2018-09-14 17:43:19.168 +02:00 [Debug] New Connection 1 from "127.0.0.1:59044"
+2018-09-14 17:43:19.168 +02:00 [Debug] Initializing Background Processes...
+2018-09-14 17:43:19.169 +02:00 [Debug] Received Line "EHLO TELMOR"
+2018-09-14 17:43:19.175 +02:00 [Debug] Sending Line "250-telmor"
+2018-09-14 17:43:19.175 +02:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-09-14 17:43:19.176 +02:00 [Debug] Sending Line "250-8BITMIME"
+2018-09-14 17:43:19.177 +02:00 [Debug] Sending Line "250 OK"
+2018-09-14 17:43:19.177 +02:00 [Debug] Received Line "MAIL FROM:<pec.segreteria@aeroportoverona.telecompost.it>"
+2018-09-14 17:43:19.184 +02:00 [Debug] Sending Line "250 <pec.segreteria@aeroportoverona.telecompost.it> OK"
+2018-09-14 17:43:19.186 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@libero.it>"
+2018-09-14 17:43:19.188 +02:00 [Debug] Sending Line "250 <luca.schiavon@libero.it> OK"
+2018-09-14 17:43:19.189 +02:00 [Debug] Received Line "RCPT TO:<amuzi@aeroportoverona.it>"
+2018-09-14 17:43:19.189 +02:00 [Debug] Sending Line "250 <amuzi@aeroportoverona.it> OK"
+2018-09-14 17:43:19.190 +02:00 [Debug] Received Line "DATA"
+2018-09-14 17:43:19.193 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-09-14 17:43:19.197 +02:00 [Debug] Sending Line "250 OK"
+2018-09-14 17:43:19.402 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180914174319381-c5e28b.eml"
+2018-09-14 17:43:19.435 +02:00 [Information] New Message "14/09/2018 17:43:19 (1.4KB)" Arrived -- Running Rules
+2018-09-14 17:43:47.798 +02:00 [Debug] Received Line "MAIL FROM:<amuzi@aeroportoverona.it>"
+2018-09-14 17:43:47.800 +02:00 [Debug] Sending Line "250 <amuzi@aeroportoverona.it> OK"
+2018-09-14 17:43:47.801 +02:00 [Debug] Received Line "RCPT TO:<amuzi@aeroportoverona.it>"
+2018-09-14 17:43:47.802 +02:00 [Debug] Sending Line "250 <amuzi@aeroportoverona.it> OK"
+2018-09-14 17:43:47.803 +02:00 [Debug] Received Line "DATA"
+2018-09-14 17:43:47.803 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-09-14 17:43:47.804 +02:00 [Debug] Sending Line "250 OK"
+2018-09-14 17:43:47.808 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180914174347806-37af22.eml"
+2018-09-14 17:43:47.808 +02:00 [Information] New Message "14/09/2018 17:43:47 (601B)" Arrived -- Running Rules
+2018-09-14 17:44:19.170 +02:00 [Debug] Status: 1 Connections "36,4MB" Memory Used
+2018-09-14 17:45:00.160 +02:00 [Debug] Received Line "QUIT"
+2018-09-14 17:45:00.161 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-09-14 17:45:00.162 +02:00 [Debug] Connection 1 Closed

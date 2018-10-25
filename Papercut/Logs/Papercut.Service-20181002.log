@@ -1,0 +1,24 @@
+2018-10-02 12:42:46.004 +02:00 [Information] Loading Messages from the Following Path(s) ["C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming"]
+2018-10-02 12:42:46.042 +02:00 [Information] Default Message Save Path is Set to "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming"
+2018-10-02 12:42:46.084 +02:00 [Debug] Sending Line "220 telmor"
+2018-10-02 12:42:46.090 +02:00 [Debug] Received Line "EHLO TELMOR"
+2018-10-02 12:42:46.094 +02:00 [Debug] Sending Line "250-telmor"
+2018-10-02 12:42:46.096 +02:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-10-02 12:42:46.096 +02:00 [Debug] Sending Line "250-8BITMIME"
+2018-10-02 12:42:46.096 +02:00 [Debug] Sending Line "250 OK"
+2018-10-02 12:42:46.096 +02:00 [Debug] New Connection 1 from "127.0.0.1:64579"
+2018-10-02 12:42:46.098 +02:00 [Debug] Received Line "MAIL FROM:<luca.schiavon@aquest.it>"
+2018-10-02 12:42:46.102 +02:00 [Debug] Sending Line "250 <luca.schiavon@aquest.it> OK"
+2018-10-02 12:42:46.103 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@aquest.it>"
+2018-10-02 12:42:46.104 +02:00 [Debug] Sending Line "250 <luca.schiavon@aquest.it> OK"
+2018-10-02 12:42:46.105 +02:00 [Debug] Received Line "DATA"
+2018-10-02 12:42:46.106 +02:00 [Debug] Initializing Background Processes...
+2018-10-02 12:42:46.109 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-10-02 12:42:46.160 +02:00 [Debug] Sending Line "250 OK"
+2018-10-02 12:42:46.407 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20181002124246379-c747fd.eml"
+2018-10-02 12:42:46.427 +02:00 [Information] New Message "02/10/2018 12:42:46 (288.2KB)" Arrived -- Running Rules
+2018-10-02 12:43:46.141 +02:00 [Debug] Status: 1 Connections "31MB" Memory Used
+2018-10-02 12:47:12.752 +02:00 [Debug] Received Line "QUIT"
+2018-10-02 12:47:12.753 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-10-02 12:47:12.758 +02:00 [Debug] Connection 1 Closed
+2018-10-02 13:03:46.091 +02:00 [Debug] Status: 0 Connections "32,9MB" Memory Used

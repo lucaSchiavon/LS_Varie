@@ -1,0 +1,91 @@
+2018-09-17 08:56:48.841 +02:00 [Debug] Status: 0 Connections "37,7MB" Memory Used
+2018-09-17 08:58:08.779 +02:00 [Debug] Status: 0 Connections "37,8MB" Memory Used
+2018-09-17 09:16:50.281 +02:00 [Debug] Status: 0 Connections "37,8MB" Memory Used
+2018-09-17 09:18:10.205 +02:00 [Debug] Status: 0 Connections "37,8MB" Memory Used
+2018-09-17 09:36:50.254 +02:00 [Debug] Status: 0 Connections "37,8MB" Memory Used
+2018-09-17 09:38:10.190 +02:00 [Debug] Status: 0 Connections "37,8MB" Memory Used
+2018-09-17 09:56:50.216 +02:00 [Debug] Status: 0 Connections "37,9MB" Memory Used
+2018-09-17 09:58:10.152 +02:00 [Debug] Status: 0 Connections "37,9MB" Memory Used
+2018-09-17 10:16:50.175 +02:00 [Debug] Status: 0 Connections "37,9MB" Memory Used
+2018-09-17 10:18:10.122 +02:00 [Debug] Status: 0 Connections "37,9MB" Memory Used
+2018-09-17 10:36:50.149 +02:00 [Debug] Status: 0 Connections "37,9MB" Memory Used
+2018-09-17 10:38:10.083 +02:00 [Debug] Status: 0 Connections "37,9MB" Memory Used
+2018-09-17 10:50:13.707 +02:00 [Debug] Sending Line "PAPERCUT"
+2018-09-17 10:50:13.707 +02:00 [Debug] New Connection 3 from "127.0.0.1:61956"
+2018-09-17 10:50:13.994 +02:00 [Debug] Received Line "{\"CommandType\":2,\"Type\":\"Papercut.Core.Infrastructure.Network.AppProcessExchangeEvent, Papercut.Core, Version=5.1.23.0, Culture=neutral, PublicKeyToken=null\",\"ByteSize\":44}"
+2018-09-17 10:50:13.995 +02:00 [Information] Publishing Event Received AppProcessExchangeEvent { MessageWritePath: null, IP: null, Port: 0 } from Remote
+2018-09-17 10:50:13.996 +02:00 [Information] Exchanging Event AppProcessExchangeEvent { MessageWritePath: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming", IP: "Any", Port: 25 } -- Pushing to Remote
+2018-09-17 10:50:13.996 +02:00 [Debug] Sending Line "{\"MessageWritePath\":\"C:\\Program Files (x86)\\Changemaker Studios\\Papercut\\Incoming\",\"IP\":\"Any\",\"Port\":25}"
+2018-09-17 10:50:14.079 +02:00 [Debug] Connection 3 Closed
+2018-09-17 10:50:23.681 +02:00 [Debug] Sending Line "PAPERCUT"
+2018-09-17 10:50:23.681 +02:00 [Debug] New Connection 4 from "127.0.0.1:61964"
+2018-09-17 10:50:23.691 +02:00 [Debug] Received Line "{\"CommandType\":1,\"Type\":\"Papercut.Core.Domain.Rules.RulesUpdatedEvent, Papercut.Core, Version=5.1.23.0, Culture=neutral, PublicKeyToken=null\",\"ByteSize\":12}"
+2018-09-17 10:50:23.692 +02:00 [Information] Publishing Event Received RulesUpdatedEvent { Rules: [] } from Remote
+2018-09-17 10:50:23.693 +02:00 [Information] Saved 0 to "C:\Program Files (x86)\Changemaker Studios\Papercut\rules.json"
+2018-09-17 10:50:23.693 +02:00 [Debug] Connection 4 Closed
+2018-09-17 10:52:30.853 +02:00 [Debug] Sending Line "220 telmor"
+2018-09-17 10:52:30.854 +02:00 [Debug] New Connection 2 from "127.0.0.1:62036"
+2018-09-17 10:52:30.854 +02:00 [Debug] Received Line "EHLO TELMOR"
+2018-09-17 10:52:30.854 +02:00 [Debug] Sending Line "250-telmor"
+2018-09-17 10:52:30.854 +02:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-09-17 10:52:30.854 +02:00 [Debug] Sending Line "250-8BITMIME"
+2018-09-17 10:52:30.854 +02:00 [Debug] Sending Line "250 OK"
+2018-09-17 10:52:30.855 +02:00 [Debug] Received Line "MAIL FROM:<pec.segreteria@aeroportoverona.telecompost.it>"
+2018-09-17 10:52:30.855 +02:00 [Debug] Sending Line "250 <pec.segreteria@aeroportoverona.telecompost.it> OK"
+2018-09-17 10:52:30.855 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@libero.it>"
+2018-09-17 10:52:30.855 +02:00 [Debug] Sending Line "250 <luca.schiavon@libero.it> OK"
+2018-09-17 10:52:30.855 +02:00 [Debug] Received Line "RCPT TO:<amuzi@aeroportoverona.it>"
+2018-09-17 10:52:30.855 +02:00 [Debug] Sending Line "250 <amuzi@aeroportoverona.it> OK"
+2018-09-17 10:52:30.855 +02:00 [Debug] Received Line "DATA"
+2018-09-17 10:52:30.855 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-09-17 10:52:30.858 +02:00 [Debug] Sending Line "250 OK"
+2018-09-17 10:52:30.859 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180917105230858-df9e07.eml"
+2018-09-17 10:52:30.860 +02:00 [Information] New Message "17/09/2018 10:52:30 (1.3KB)" Arrived -- Running Rules
+2018-09-17 10:54:09.876 +02:00 [Debug] Received Line "QUIT"
+2018-09-17 10:54:09.876 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-09-17 10:54:09.876 +02:00 [Debug] Connection 2 Closed
+2018-09-17 10:56:50.104 +02:00 [Debug] Status: 0 Connections "37,9MB" Memory Used
+2018-09-17 10:58:10.036 +02:00 [Debug] Status: 0 Connections "37,9MB" Memory Used
+2018-09-17 11:16:50.050 +02:00 [Debug] Status: 0 Connections "38MB" Memory Used
+2018-09-17 11:18:09.982 +02:00 [Debug] Status: 0 Connections "38MB" Memory Used
+2018-09-17 11:36:50.015 +02:00 [Debug] Status: 0 Connections "38MB" Memory Used
+2018-09-17 11:38:09.948 +02:00 [Debug] Status: 0 Connections "38MB" Memory Used
+2018-09-17 11:56:49.983 +02:00 [Debug] Status: 0 Connections "38MB" Memory Used
+2018-09-17 11:58:09.900 +02:00 [Debug] Status: 0 Connections "38MB" Memory Used
+2018-09-17 12:16:49.951 +02:00 [Debug] Status: 0 Connections "38MB" Memory Used
+2018-09-17 12:18:09.858 +02:00 [Debug] Status: 0 Connections "38,1MB" Memory Used
+2018-09-17 12:36:49.903 +02:00 [Debug] Status: 0 Connections "38,2MB" Memory Used
+2018-09-17 12:38:09.821 +02:00 [Debug] Status: 0 Connections "38,3MB" Memory Used
+2018-09-17 12:56:49.857 +02:00 [Debug] Status: 0 Connections "38,5MB" Memory Used
+2018-09-17 12:58:09.774 +02:00 [Debug] Status: 0 Connections "38,4MB" Memory Used
+2018-09-17 13:16:49.814 +02:00 [Debug] Status: 0 Connections "38,5MB" Memory Used
+2018-09-17 13:18:09.733 +02:00 [Debug] Status: 0 Connections "38,5MB" Memory Used
+2018-09-17 13:36:49.781 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 13:38:09.716 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 13:56:49.742 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 13:58:09.675 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 14:16:49.694 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 14:18:09.626 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 14:36:49.648 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 14:38:09.581 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 14:56:49.613 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 14:58:09.548 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 15:16:49.564 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 15:18:09.496 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 15:36:49.511 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 15:38:09.445 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 15:56:49.467 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 15:58:09.400 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 16:16:49.434 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 16:18:09.372 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 16:36:49.402 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 16:38:09.335 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 16:56:49.357 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 16:58:09.290 +02:00 [Debug] Status: 0 Connections "39,3MB" Memory Used
+2018-09-17 17:16:49.328 +02:00 [Debug] Status: 0 Connections "36MB" Memory Used
+2018-09-17 17:18:09.261 +02:00 [Debug] Status: 0 Connections "36MB" Memory Used
+2018-09-17 17:36:49.293 +02:00 [Debug] Status: 0 Connections "36,1MB" Memory Used
+2018-09-17 17:38:09.210 +02:00 [Debug] Status: 0 Connections "36,1MB" Memory Used
+2018-09-17 17:56:49.247 +02:00 [Debug] Status: 0 Connections "36MB" Memory Used
+2018-09-17 17:58:09.163 +02:00 [Debug] Status: 0 Connections "36,1MB" Memory Used
+2018-09-17 18:16:49.202 +02:00 [Debug] Status: 0 Connections "36,1MB" Memory Used

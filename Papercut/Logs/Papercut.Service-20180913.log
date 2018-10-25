@@ -1,0 +1,145 @@
+2018-09-13 08:47:40.373 +02:00 [Information] Configuration Result:
+"[Success] Name PapercutServerService
+[Success] DisplayName Papercut SMTP Service
+[Success] Description Papercut SMTP Backend Service
+[Success] ServiceName PapercutServerService"
+2018-09-13 08:47:40.450 +02:00 [Information] "Topshelf" v"3.3.154.0", .NET Framework v"4.0.30319.42000"
+2018-09-13 08:47:40.525 +02:00 [Debug] Started by the Windows services process
+2018-09-13 08:47:40.525 +02:00 [Debug] Running as a service, creating service host.
+2018-09-13 08:47:40.528 +02:00 [Information] Starting as a Windows service
+2018-09-13 08:47:40.530 +02:00 [Debug] [Topshelf] Starting up as a windows service application
+2018-09-13 08:47:40.532 +02:00 [Information] [Topshelf] Starting
+2018-09-13 08:47:40.533 +02:00 [Debug] [Topshelf] Current Directory: "C:\Program Files (x86)\Changemaker Studios\Papercut"
+2018-09-13 08:47:40.533 +02:00 [Debug] [Topshelf] Arguments: ""
+2018-09-13 08:47:40.580 +02:00 [Information] Publishing PapercutServicePreStartEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client
+2018-09-13 08:47:41.679 +02:00 [Information] [Topshelf] Started
+2018-09-13 08:47:42.692 +02:00 [Information] Starting Server Papercut
+2018-09-13 08:47:42.692 +02:00 [Information] Starting Server Smtp
+2018-09-13 08:47:42.699 +02:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37403
+2018-09-13 08:47:42.699 +02:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2018-09-13 08:47:42.710 +02:00 [Information] Running Plug-In "WebUI" "1.0.0" "Provides a web UI to manage the email messages for Papercut."
+2018-09-13 08:47:42.711 +02:00 [Information] Running Plug-In "Verbose (JSON) Serilog Logging" "5.1.23.0" "Verbose (JSON) Serilog Logging Support for Papercut"
+2018-09-13 08:47:42.711 +02:00 [Information] Running Plug-In "Papercut Seq Logging" "1.0.0.0" "Papercut Serilog to Seq (http://getseq.net) local instance"
+2018-09-13 08:47:42.897 +02:00 [Information] WebUI server started at port 37408.
+2018-09-13 08:47:42.897 +02:00 [Information] Publishing PapercutServiceReadyEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client
+2018-09-13 11:09:55.506 +02:00 [Debug] Sending Line "PAPERCUT"
+2018-09-13 11:09:55.519 +02:00 [Debug] New Connection 1 from "127.0.0.1:51146"
+2018-09-13 11:09:55.520 +02:00 [Debug] Initializing Background Processes...
+2018-09-13 11:09:55.734 +02:00 [Debug] Received Line "{\"CommandType\":2,\"Type\":\"Papercut.Core.Infrastructure.Network.AppProcessExchangeEvent, Papercut.Core, Version=5.1.23.0, Culture=neutral, PublicKeyToken=null\",\"ByteSize\":44}"
+2018-09-13 11:09:55.899 +02:00 [Information] Publishing Event Received AppProcessExchangeEvent { MessageWritePath: null, IP: null, Port: 0 } from Remote
+2018-09-13 11:09:55.941 +02:00 [Information] Loading Messages from the Following Path(s) ["C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming"]
+2018-09-13 11:09:55.945 +02:00 [Information] Default Message Save Path is Set to "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming"
+2018-09-13 11:09:55.949 +02:00 [Information] Exchanging Event AppProcessExchangeEvent { MessageWritePath: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming", IP: "Any", Port: 25 } -- Pushing to Remote
+2018-09-13 11:09:56.009 +02:00 [Debug] Sending Line "{\"MessageWritePath\":\"C:\\Program Files (x86)\\Changemaker Studios\\Papercut\\Incoming\",\"IP\":\"Any\",\"Port\":25}"
+2018-09-13 11:09:56.101 +02:00 [Debug] Connection 1 Closed
+2018-09-13 11:10:05.462 +02:00 [Debug] Sending Line "PAPERCUT"
+2018-09-13 11:10:05.463 +02:00 [Debug] New Connection 2 from "127.0.0.1:51153"
+2018-09-13 11:10:05.473 +02:00 [Debug] Received Line "{\"CommandType\":1,\"Type\":\"Papercut.Core.Domain.Rules.RulesUpdatedEvent, Papercut.Core, Version=5.1.23.0, Culture=neutral, PublicKeyToken=null\",\"ByteSize\":12}"
+2018-09-13 11:10:05.519 +02:00 [Information] Publishing Event Received RulesUpdatedEvent { Rules: [] } from Remote
+2018-09-13 11:10:05.540 +02:00 [Information] Saved 0 to "C:\Program Files (x86)\Changemaker Studios\Papercut\rules.json"
+2018-09-13 11:10:05.541 +02:00 [Debug] Connection 2 Closed
+2018-09-13 11:10:55.541 +02:00 [Debug] Status: 0 Connections "53MB" Memory Used
+2018-09-13 11:10:58.515 +02:00 [Debug] Sending Line "220 telmor"
+2018-09-13 11:10:58.515 +02:00 [Debug] New Connection 1 from "127.0.0.1:51179"
+2018-09-13 11:10:58.515 +02:00 [Debug] Initializing Background Processes...
+2018-09-13 11:10:58.515 +02:00 [Debug] Received Line "EHLO TELMOR"
+2018-09-13 11:10:58.518 +02:00 [Debug] Sending Line "250-telmor"
+2018-09-13 11:10:58.519 +02:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-09-13 11:10:58.519 +02:00 [Debug] Sending Line "250-8BITMIME"
+2018-09-13 11:10:58.519 +02:00 [Debug] Sending Line "250 OK"
+2018-09-13 11:10:58.519 +02:00 [Debug] Received Line "MAIL FROM:<pec.segreteria@aeroportoverona.telecompost.it>"
+2018-09-13 11:10:58.522 +02:00 [Debug] Sending Line "250 <pec.segreteria@aeroportoverona.telecompost.it> OK"
+2018-09-13 11:10:58.522 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@aquest.it>"
+2018-09-13 11:10:58.523 +02:00 [Debug] Sending Line "250 <luca.schiavon@aquest.it> OK"
+2018-09-13 11:10:58.524 +02:00 [Debug] Received Line "RCPT TO:<amuzi@aeroportoverona.it>"
+2018-09-13 11:10:58.524 +02:00 [Debug] Sending Line "250 <amuzi@aeroportoverona.it> OK"
+2018-09-13 11:10:58.524 +02:00 [Debug] Received Line "DATA"
+2018-09-13 11:10:58.526 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-09-13 11:10:58.527 +02:00 [Debug] Sending Line "250 OK"
+2018-09-13 11:10:58.684 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180913111058656-6ba934.eml"
+2018-09-13 11:10:58.694 +02:00 [Information] New Message "13/09/2018 11:10:58 (1.4KB)" Arrived -- Running Rules
+2018-09-13 11:10:58.694 +02:00 [Debug] Received Line "MAIL FROM:<amuzi@aeroportoverona.it>"
+2018-09-13 11:10:58.694 +02:00 [Debug] Sending Line "250 <amuzi@aeroportoverona.it> OK"
+2018-09-13 11:10:58.695 +02:00 [Debug] Received Line "RCPT TO:<amuzi@aeroportoverona.it>"
+2018-09-13 11:10:58.695 +02:00 [Debug] Sending Line "250 <amuzi@aeroportoverona.it> OK"
+2018-09-13 11:10:58.695 +02:00 [Debug] Received Line "DATA"
+2018-09-13 11:10:58.695 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-09-13 11:10:58.695 +02:00 [Debug] Sending Line "250 OK"
+2018-09-13 11:10:58.696 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180913111058696-a7358c.eml"
+2018-09-13 11:10:58.697 +02:00 [Information] New Message "13/09/2018 11:10:58 (600B)" Arrived -- Running Rules
+2018-09-13 11:11:58.517 +02:00 [Debug] Status: 1 Connections "55,7MB" Memory Used
+2018-09-13 11:12:36.913 +02:00 [Debug] Sending Line "PAPERCUT"
+2018-09-13 11:12:36.913 +02:00 [Debug] New Connection 3 from "127.0.0.1:51227"
+2018-09-13 11:12:37.175 +02:00 [Debug] Received Line "{\"CommandType\":2,\"Type\":\"Papercut.Core.Infrastructure.Network.AppProcessExchangeEvent, Papercut.Core, Version=5.1.23.0, Culture=neutral, PublicKeyToken=null\",\"ByteSize\":44}"
+2018-09-13 11:12:37.176 +02:00 [Information] Publishing Event Received AppProcessExchangeEvent { MessageWritePath: null, IP: null, Port: 0 } from Remote
+2018-09-13 11:12:37.177 +02:00 [Information] Exchanging Event AppProcessExchangeEvent { MessageWritePath: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming", IP: "Any", Port: 25 } -- Pushing to Remote
+2018-09-13 11:12:37.177 +02:00 [Debug] Sending Line "{\"MessageWritePath\":\"C:\\Program Files (x86)\\Changemaker Studios\\Papercut\\Incoming\",\"IP\":\"Any\",\"Port\":25}"
+2018-09-13 11:12:37.269 +02:00 [Debug] Connection 3 Closed
+2018-09-13 11:12:37.496 +02:00 [Debug] Received Line "QUIT"
+2018-09-13 11:12:37.497 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-09-13 11:12:37.497 +02:00 [Debug] Connection 1 Closed
+2018-09-13 11:14:51.968 +02:00 [Debug] Sending Line "220 telmor"
+2018-09-13 11:14:51.968 +02:00 [Debug] New Connection 2 from "127.0.0.1:51258"
+2018-09-13 11:14:51.969 +02:00 [Debug] Received Line "EHLO TELMOR"
+2018-09-13 11:14:51.969 +02:00 [Debug] Sending Line "250-telmor"
+2018-09-13 11:14:51.969 +02:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-09-13 11:14:51.969 +02:00 [Debug] Sending Line "250-8BITMIME"
+2018-09-13 11:14:51.969 +02:00 [Debug] Sending Line "250 OK"
+2018-09-13 11:14:51.969 +02:00 [Debug] Received Line "MAIL FROM:<pec.segreteria@aeroportoverona.telecompost.it>"
+2018-09-13 11:14:51.969 +02:00 [Debug] Sending Line "250 <pec.segreteria@aeroportoverona.telecompost.it> OK"
+2018-09-13 11:14:51.970 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@aquest.it>"
+2018-09-13 11:14:51.970 +02:00 [Debug] Sending Line "250 <luca.schiavon@aquest.it> OK"
+2018-09-13 11:14:51.970 +02:00 [Debug] Received Line "RCPT TO:<amuzi@aeroportoverona.it>"
+2018-09-13 11:14:51.970 +02:00 [Debug] Sending Line "250 <amuzi@aeroportoverona.it> OK"
+2018-09-13 11:14:51.970 +02:00 [Debug] Received Line "DATA"
+2018-09-13 11:14:51.970 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-09-13 11:14:51.970 +02:00 [Debug] Sending Line "250 OK"
+2018-09-13 11:14:51.972 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180913111451971-7b3e75.eml"
+2018-09-13 11:14:51.972 +02:00 [Information] New Message "13/09/2018 11:14:51 (1.3KB)" Arrived -- Running Rules
+2018-09-13 11:15:57.555 +02:00 [Debug] Received Line "QUIT"
+2018-09-13 11:15:57.555 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-09-13 11:15:57.555 +02:00 [Debug] Connection 2 Closed
+2018-09-13 11:30:55.485 +02:00 [Debug] Status: 0 Connections "55,7MB" Memory Used
+2018-09-13 11:31:58.466 +02:00 [Debug] Status: 0 Connections "55,7MB" Memory Used
+2018-09-13 11:50:55.435 +02:00 [Debug] Status: 0 Connections "55,3MB" Memory Used
+2018-09-13 11:51:58.417 +02:00 [Debug] Status: 0 Connections "55,3MB" Memory Used
+2018-09-13 12:10:55.397 +02:00 [Debug] Status: 0 Connections "55,3MB" Memory Used
+2018-09-13 12:11:58.379 +02:00 [Debug] Status: 0 Connections "55,3MB" Memory Used
+2018-09-13 12:30:55.360 +02:00 [Debug] Status: 0 Connections "55,3MB" Memory Used
+2018-09-13 12:31:58.341 +02:00 [Debug] Status: 0 Connections "55,3MB" Memory Used
+2018-09-13 12:50:55.329 +02:00 [Debug] Status: 0 Connections "55,4MB" Memory Used
+2018-09-13 12:51:58.294 +02:00 [Debug] Status: 0 Connections "55,4MB" Memory Used
+2018-09-13 13:10:55.283 +02:00 [Debug] Status: 0 Connections "55,4MB" Memory Used
+2018-09-13 13:11:58.251 +02:00 [Debug] Status: 0 Connections "55,4MB" Memory Used
+2018-09-13 13:30:55.235 +02:00 [Debug] Status: 0 Connections "55,4MB" Memory Used
+2018-09-13 13:31:58.201 +02:00 [Debug] Status: 0 Connections "55,4MB" Memory Used
+2018-09-13 13:50:55.196 +02:00 [Debug] Status: 0 Connections "55,4MB" Memory Used
+2018-09-13 13:51:58.162 +02:00 [Debug] Status: 0 Connections "55,4MB" Memory Used
+2018-09-13 14:10:55.143 +02:00 [Debug] Status: 0 Connections "55,4MB" Memory Used
+2018-09-13 14:11:58.108 +02:00 [Debug] Status: 0 Connections "55,4MB" Memory Used
+2018-09-13 14:30:55.105 +02:00 [Debug] Status: 0 Connections "48,6MB" Memory Used
+2018-09-13 14:31:58.086 +02:00 [Debug] Status: 0 Connections "48,7MB" Memory Used
+2018-09-13 14:50:55.086 +02:00 [Debug] Status: 0 Connections "38,3MB" Memory Used
+2018-09-13 14:51:58.054 +02:00 [Debug] Status: 0 Connections "38,3MB" Memory Used
+2018-09-13 15:10:55.026 +02:00 [Debug] Status: 0 Connections "38,4MB" Memory Used
+2018-09-13 15:11:58.007 +02:00 [Debug] Status: 0 Connections "38,4MB" Memory Used
+2018-09-13 15:30:54.993 +02:00 [Debug] Status: 0 Connections "38,5MB" Memory Used
+2018-09-13 15:31:57.975 +02:00 [Debug] Status: 0 Connections "38,5MB" Memory Used
+2018-09-13 15:50:54.961 +02:00 [Debug] Status: 0 Connections "34,9MB" Memory Used
+2018-09-13 15:51:57.942 +02:00 [Debug] Status: 0 Connections "33MB" Memory Used
+2018-09-13 16:10:54.920 +02:00 [Debug] Status: 0 Connections "33,2MB" Memory Used
+2018-09-13 16:11:57.917 +02:00 [Debug] Status: 0 Connections "33,2MB" Memory Used
+2018-09-13 16:30:54.854 +02:00 [Debug] Status: 0 Connections "33,2MB" Memory Used
+2018-09-13 16:31:57.852 +02:00 [Debug] Status: 0 Connections "33,2MB" Memory Used
+2018-09-13 16:50:54.815 +02:00 [Debug] Status: 0 Connections "33,2MB" Memory Used
+2018-09-13 16:51:57.813 +02:00 [Debug] Status: 0 Connections "33,2MB" Memory Used
+2018-09-13 17:10:54.778 +02:00 [Debug] Status: 0 Connections "33,3MB" Memory Used
+2018-09-13 17:11:57.792 +02:00 [Debug] Status: 0 Connections "33,3MB" Memory Used
+2018-09-13 17:30:54.719 +02:00 [Debug] Status: 0 Connections "31,6MB" Memory Used
+2018-09-13 17:31:57.716 +02:00 [Debug] Status: 0 Connections "31,6MB" Memory Used
+2018-09-13 17:50:54.691 +02:00 [Debug] Status: 0 Connections "31,6MB" Memory Used
+2018-09-13 17:51:57.688 +02:00 [Debug] Status: 0 Connections "31,6MB" Memory Used
+2018-09-13 18:10:52.004 +02:00 [Information] [Topshelf] Service is being shutdown
+2018-09-13 18:10:52.105 +02:00 [Information] [Topshelf] Stopped
+2018-09-13 18:10:52.128 +02:00 [Information] Stopping Server Papercut
+2018-09-13 18:10:52.174 +02:00 [Information] Stopping Server Smtp

@@ -1,0 +1,68 @@
+2018-08-30 09:07:59.389 +02:00 [Debug] Status: 0 Connections "19,6MB" Memory Used
+2018-08-30 09:28:00.523 +02:00 [Debug] Status: 0 Connections "20,2MB" Memory Used
+2018-08-30 09:48:00.508 +02:00 [Debug] Status: 0 Connections "20,2MB" Memory Used
+2018-08-30 10:08:00.472 +02:00 [Debug] Status: 0 Connections "20,3MB" Memory Used
+2018-08-30 10:28:00.443 +02:00 [Debug] Status: 0 Connections "20,4MB" Memory Used
+2018-08-30 10:48:00.392 +02:00 [Debug] Status: 0 Connections "20,6MB" Memory Used
+2018-08-30 11:08:00.350 +02:00 [Debug] Status: 0 Connections "20,7MB" Memory Used
+2018-08-30 11:28:00.314 +02:00 [Debug] Status: 0 Connections "20,8MB" Memory Used
+2018-08-30 11:48:00.276 +02:00 [Debug] Status: 0 Connections "21MB" Memory Used
+2018-08-30 12:08:00.225 +02:00 [Debug] Status: 0 Connections "21,1MB" Memory Used
+2018-08-30 12:28:00.191 +02:00 [Debug] Status: 0 Connections "21,2MB" Memory Used
+2018-08-30 12:48:00.130 +02:00 [Debug] Status: 0 Connections "21,3MB" Memory Used
+2018-08-30 13:08:00.086 +02:00 [Debug] Status: 0 Connections "21,5MB" Memory Used
+2018-08-30 13:28:00.041 +02:00 [Debug] Status: 0 Connections "21,6MB" Memory Used
+2018-08-30 13:48:00.011 +02:00 [Debug] Status: 0 Connections "21,7MB" Memory Used
+2018-08-30 14:07:59.968 +02:00 [Debug] Status: 0 Connections "21,8MB" Memory Used
+2018-08-30 14:27:59.918 +02:00 [Debug] Status: 0 Connections "22MB" Memory Used
+2018-08-30 14:46:55.050 +02:00 [Debug] Sending Line "220 telmor"
+2018-08-30 14:46:55.052 +02:00 [Debug] Received Line "HELO TELMOR.AQDOMAIN.LOCAL"
+2018-08-30 14:46:55.053 +02:00 [Debug] Sending Line "250 telmor"
+2018-08-30 14:46:55.053 +02:00 [Debug] Received Line "MAIL FROM:<luca.schiavon@alice.it>"
+2018-08-30 14:46:55.054 +02:00 [Debug] Sending Line "250 <luca.schiavon@alice.it> OK"
+2018-08-30 14:46:55.053 +02:00 [Debug] New Connection 7 from "127.0.0.1:60215"
+2018-08-30 14:46:55.055 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@alice.it>"
+2018-08-30 14:46:55.056 +02:00 [Debug] Sending Line "250 <luca.schiavon@alice.it> OK"
+2018-08-30 14:46:55.056 +02:00 [Debug] Received Line "DATA"
+2018-08-30 14:46:55.058 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-08-30 14:46:55.059 +02:00 [Debug] Sending Line "250 OK"
+2018-08-30 14:46:55.076 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180830144655071-a8a411.eml"
+2018-08-30 14:46:55.085 +02:00 [Information] New Message "30/08/2018 14:46:55 (656B)" Arrived -- Running Rules
+2018-08-30 14:46:55.085 +02:00 [Debug] Received Line "QUIT"
+2018-08-30 14:46:55.085 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-08-30 14:46:55.086 +02:00 [Debug] Connection 7 Closed
+2018-08-30 14:47:59.885 +02:00 [Debug] Status: 0 Connections "23,4MB" Memory Used
+2018-08-30 14:48:39.039 +02:00 [Debug] Sending Line "PAPERCUT"
+2018-08-30 14:48:39.040 +02:00 [Debug] New Connection 1 from "127.0.0.1:60316"
+2018-08-30 14:48:39.040 +02:00 [Debug] Initializing Background Processes...
+2018-08-30 14:48:39.303 +02:00 [Debug] Received Line "{\"CommandType\":2,\"Type\":\"Papercut.Core.Infrastructure.Network.AppProcessExchangeEvent, Papercut.Core, Version=5.1.23.0, Culture=neutral, PublicKeyToken=null\",\"ByteSize\":44}"
+2018-08-30 14:48:39.580 +02:00 [Information] Publishing Event Received AppProcessExchangeEvent { MessageWritePath: null, IP: null, Port: 0 } from Remote
+2018-08-30 14:48:39.595 +02:00 [Information] Exchanging Event AppProcessExchangeEvent { MessageWritePath: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming", IP: "Any", Port: 25 } -- Pushing to Remote
+2018-08-30 14:48:39.642 +02:00 [Debug] Sending Line "{\"MessageWritePath\":\"C:\\Program Files (x86)\\Changemaker Studios\\Papercut\\Incoming\",\"IP\":\"Any\",\"Port\":25}"
+2018-08-30 14:48:39.721 +02:00 [Debug] Connection 1 Closed
+2018-08-30 14:48:49.013 +02:00 [Debug] Sending Line "PAPERCUT"
+2018-08-30 14:48:49.013 +02:00 [Debug] New Connection 2 from "127.0.0.1:60325"
+2018-08-30 14:48:49.035 +02:00 [Debug] Received Line "{\"CommandType\":1,\"Type\":\"Papercut.Core.Domain.Rules.RulesUpdatedEvent, Papercut.Core, Version=5.1.23.0, Culture=neutral, PublicKeyToken=null\",\"ByteSize\":12}"
+2018-08-30 14:48:49.072 +02:00 [Information] Publishing Event Received RulesUpdatedEvent { Rules: [] } from Remote
+2018-08-30 14:48:49.089 +02:00 [Information] Saved 0 to "C:\Program Files (x86)\Changemaker Studios\Papercut\rules.json"
+2018-08-30 14:48:49.089 +02:00 [Debug] Connection 2 Closed
+2018-08-30 14:49:39.063 +02:00 [Debug] Status: 0 Connections "30,7MB" Memory Used
+2018-08-30 15:07:59.839 +02:00 [Debug] Status: 0 Connections "30,7MB" Memory Used
+2018-08-30 15:09:39.025 +02:00 [Debug] Status: 0 Connections "30,7MB" Memory Used
+2018-08-30 15:27:59.787 +02:00 [Debug] Status: 0 Connections "30,7MB" Memory Used
+2018-08-30 15:29:38.967 +02:00 [Debug] Status: 0 Connections "30,7MB" Memory Used
+2018-08-30 15:47:59.724 +02:00 [Debug] Status: 0 Connections "30,7MB" Memory Used
+2018-08-30 15:49:38.910 +02:00 [Debug] Status: 0 Connections "30,7MB" Memory Used
+2018-08-30 16:07:59.679 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used
+2018-08-30 16:09:38.877 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used
+2018-08-30 16:27:59.646 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used
+2018-08-30 16:29:38.832 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used
+2018-08-30 16:47:59.601 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used
+2018-08-30 16:49:38.788 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used
+2018-08-30 17:07:59.555 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used
+2018-08-30 17:09:38.743 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used
+2018-08-30 17:27:59.511 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used
+2018-08-30 17:29:38.698 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used
+2018-08-30 17:47:59.447 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used
+2018-08-30 17:49:38.633 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used
+2018-08-30 18:07:59.393 +02:00 [Debug] Status: 0 Connections "30,8MB" Memory Used

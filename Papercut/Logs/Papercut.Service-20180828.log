@@ -1,0 +1,87 @@
+2018-08-28 09:00:46.095 +02:00 [Debug] Status: 0 Connections "24,7MB" Memory Used
+2018-08-28 09:12:12.075 +02:00 [Information] [Topshelf] Service is being shutdown
+2018-08-28 09:12:12.096 +02:00 [Information] [Topshelf] Stopped
+2018-08-28 09:12:12.106 +02:00 [Information] Stopping Server Papercut
+2018-08-28 09:12:12.117 +02:00 [Information] Stopping Server Smtp
+2018-08-28 09:12:40.710 +02:00 [Information] Configuration Result:
+"[Success] Name PapercutServerService
+[Success] DisplayName Papercut SMTP Service
+[Success] Description Papercut SMTP Backend Service
+[Success] ServiceName PapercutServerService"
+2018-08-28 09:12:40.786 +02:00 [Information] "Topshelf" v"3.3.154.0", .NET Framework v"4.0.30319.42000"
+2018-08-28 09:12:40.862 +02:00 [Debug] Started by the Windows services process
+2018-08-28 09:12:40.862 +02:00 [Debug] Running as a service, creating service host.
+2018-08-28 09:12:40.864 +02:00 [Information] Starting as a Windows service
+2018-08-28 09:12:40.867 +02:00 [Debug] [Topshelf] Starting up as a windows service application
+2018-08-28 09:12:40.869 +02:00 [Information] [Topshelf] Starting
+2018-08-28 09:12:40.870 +02:00 [Debug] [Topshelf] Current Directory: "C:\Program Files (x86)\Changemaker Studios\Papercut"
+2018-08-28 09:12:40.870 +02:00 [Debug] [Topshelf] Arguments: ""
+2018-08-28 09:12:40.911 +02:00 [Information] Publishing PapercutServicePreStartEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client
+2018-08-28 09:12:42.005 +02:00 [Information] [Topshelf] Started
+2018-08-28 09:12:43.013 +02:00 [Information] Starting Server Papercut
+2018-08-28 09:12:43.013 +02:00 [Information] Starting Server Smtp
+2018-08-28 09:12:43.020 +02:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2018-08-28 09:12:43.021 +02:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37403
+2018-08-28 09:12:43.032 +02:00 [Information] Running Plug-In "WebUI" "1.0.0" "Provides a web UI to manage the email messages for Papercut."
+2018-08-28 09:12:43.032 +02:00 [Information] Running Plug-In "Verbose (JSON) Serilog Logging" "5.1.23.0" "Verbose (JSON) Serilog Logging Support for Papercut"
+2018-08-28 09:12:43.032 +02:00 [Information] Running Plug-In "Papercut Seq Logging" "1.0.0.0" "Papercut Serilog to Seq (http://getseq.net) local instance"
+2018-08-28 09:12:43.204 +02:00 [Information] WebUI server started at port 37408.
+2018-08-28 09:12:43.204 +02:00 [Information] Publishing PapercutServiceReadyEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client
+2018-08-28 10:39:36.080 +02:00 [Information] Loading Messages from the Following Path(s) ["C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming"]
+2018-08-28 10:39:36.085 +02:00 [Information] Default Message Save Path is Set to "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming"
+2018-08-28 10:39:36.108 +02:00 [Debug] Sending Line "220 telmor"
+2018-08-28 10:39:36.112 +02:00 [Debug] Received Line "HELO TELMOR.AQDOMAIN.LOCAL"
+2018-08-28 10:39:36.115 +02:00 [Debug] Sending Line "250 telmor"
+2018-08-28 10:39:36.116 +02:00 [Debug] Received Line "MAIL FROM:<wordpress@localhost>"
+2018-08-28 10:39:36.118 +02:00 [Debug] New Connection 1 from "127.0.0.1:50080"
+2018-08-28 10:39:36.119 +02:00 [Debug] Initializing Background Processes...
+2018-08-28 10:39:36.119 +02:00 [Debug] Sending Line "250 <wordpress@localhost> OK"
+2018-08-28 10:39:36.120 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@alice.it>"
+2018-08-28 10:39:36.121 +02:00 [Debug] Sending Line "250 <luca.schiavon@alice.it> OK"
+2018-08-28 10:39:36.121 +02:00 [Debug] Received Line "DATA"
+2018-08-28 10:39:36.124 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-08-28 10:39:36.125 +02:00 [Debug] Sending Line "250 OK"
+2018-08-28 10:39:36.319 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180828103936296-ae556f.eml"
+2018-08-28 10:39:36.332 +02:00 [Information] New Message "28/08/2018 10:39:36 (789B)" Arrived -- Running Rules
+2018-08-28 10:39:36.332 +02:00 [Debug] Received Line "QUIT"
+2018-08-28 10:39:36.332 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-08-28 10:39:36.337 +02:00 [Debug] Connection 1 Closed
+2018-08-28 10:39:53.046 +02:00 [Debug] Sending Line "220 telmor"
+2018-08-28 10:39:53.046 +02:00 [Debug] New Connection 2 from "127.0.0.1:50097"
+2018-08-28 10:39:53.046 +02:00 [Debug] Received Line "HELO TELMOR.AQDOMAIN.LOCAL"
+2018-08-28 10:39:53.046 +02:00 [Debug] Sending Line "250 telmor"
+2018-08-28 10:39:53.046 +02:00 [Debug] Received Line "MAIL FROM:<wordpress@localhost>"
+2018-08-28 10:39:53.047 +02:00 [Debug] Sending Line "250 <wordpress@localhost> OK"
+2018-08-28 10:39:53.047 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@alice.it>"
+2018-08-28 10:39:53.047 +02:00 [Debug] Sending Line "250 <luca.schiavon@alice.it> OK"
+2018-08-28 10:39:53.047 +02:00 [Debug] Received Line "DATA"
+2018-08-28 10:39:53.047 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-08-28 10:39:53.047 +02:00 [Debug] Sending Line "250 OK"
+2018-08-28 10:39:53.049 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180828103953048-7c7e03.eml"
+2018-08-28 10:39:53.049 +02:00 [Information] New Message "28/08/2018 10:39:53 (1.1KB)" Arrived -- Running Rules
+2018-08-28 10:39:53.049 +02:00 [Debug] Received Line "QUIT"
+2018-08-28 10:39:53.049 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-08-28 10:39:53.050 +02:00 [Debug] Connection 2 Closed
+2018-08-28 10:40:36.139 +02:00 [Debug] Status: 0 Connections "36,4MB" Memory Used
+2018-08-28 11:00:36.084 +02:00 [Debug] Status: 0 Connections "37,5MB" Memory Used
+2018-08-28 11:20:36.048 +02:00 [Debug] Status: 0 Connections "37,6MB" Memory Used
+2018-08-28 11:40:35.989 +02:00 [Debug] Status: 0 Connections "37,6MB" Memory Used
+2018-08-28 12:00:35.943 +02:00 [Debug] Status: 0 Connections "37,6MB" Memory Used
+2018-08-28 12:20:35.902 +02:00 [Debug] Status: 0 Connections "37,6MB" Memory Used
+2018-08-28 12:40:35.882 +02:00 [Debug] Status: 0 Connections "37,6MB" Memory Used
+2018-08-28 13:00:35.833 +02:00 [Debug] Status: 0 Connections "37,7MB" Memory Used
+2018-08-28 13:20:35.781 +02:00 [Debug] Status: 0 Connections "37,7MB" Memory Used
+2018-08-28 13:40:35.750 +02:00 [Debug] Status: 0 Connections "35,1MB" Memory Used
+2018-08-28 14:00:35.692 +02:00 [Debug] Status: 0 Connections "35,2MB" Memory Used
+2018-08-28 14:20:35.685 +02:00 [Debug] Status: 0 Connections "35,2MB" Memory Used
+2018-08-28 14:40:35.642 +02:00 [Debug] Status: 0 Connections "35,2MB" Memory Used
+2018-08-28 15:00:35.622 +02:00 [Debug] Status: 0 Connections "35,2MB" Memory Used
+2018-08-28 15:20:35.596 +02:00 [Debug] Status: 0 Connections "35,2MB" Memory Used
+2018-08-28 15:40:35.503 +02:00 [Debug] Status: 0 Connections "27,4MB" Memory Used
+2018-08-28 16:00:35.466 +02:00 [Debug] Status: 0 Connections "27,4MB" Memory Used
+2018-08-28 16:20:35.450 +02:00 [Debug] Status: 0 Connections "27,5MB" Memory Used
+2018-08-28 16:40:35.416 +02:00 [Debug] Status: 0 Connections "27,5MB" Memory Used
+2018-08-28 17:00:35.349 +02:00 [Debug] Status: 0 Connections "27,6MB" Memory Used
+2018-08-28 17:20:35.315 +02:00 [Debug] Status: 0 Connections "27,6MB" Memory Used
+2018-08-28 17:40:35.297 +02:00 [Debug] Status: 0 Connections "27,7MB" Memory Used
+2018-08-28 18:00:35.192 +02:00 [Debug] Status: 0 Connections "27,7MB" Memory Used

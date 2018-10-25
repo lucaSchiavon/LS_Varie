@@ -1,0 +1,71 @@
+2018-10-03 09:27:55.339 +02:00 [Debug] Status: 0 Connections "33MB" Memory Used
+2018-10-03 09:47:55.275 +02:00 [Debug] Status: 0 Connections "33MB" Memory Used
+2018-10-03 10:07:55.229 +02:00 [Debug] Status: 0 Connections "33MB" Memory Used
+2018-10-03 10:27:55.176 +02:00 [Debug] Status: 0 Connections "33MB" Memory Used
+2018-10-03 10:47:55.129 +02:00 [Debug] Status: 0 Connections "33MB" Memory Used
+2018-10-03 11:07:55.101 +02:00 [Debug] Status: 0 Connections "34MB" Memory Used
+2018-10-03 11:27:55.064 +02:00 [Debug] Status: 0 Connections "27,6MB" Memory Used
+2018-10-03 11:47:55.013 +02:00 [Debug] Status: 0 Connections "28,6MB" Memory Used
+2018-10-03 12:07:54.965 +02:00 [Debug] Status: 0 Connections "28,6MB" Memory Used
+2018-10-03 12:18:13.907 +02:00 [Debug] Sending Line "220 telmor"
+2018-10-03 12:18:13.908 +02:00 [Debug] Received Line "EHLO TELMOR"
+2018-10-03 12:18:13.908 +02:00 [Debug] Sending Line "250-telmor"
+2018-10-03 12:18:13.909 +02:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-10-03 12:18:13.910 +02:00 [Debug] New Connection 2 from "127.0.0.1:53048"
+2018-10-03 12:18:13.910 +02:00 [Debug] Sending Line "250-8BITMIME"
+2018-10-03 12:18:13.910 +02:00 [Debug] Sending Line "250 OK"
+2018-10-03 12:18:13.910 +02:00 [Debug] Received Line "MAIL FROM:<luca.schiavon@aquest.it>"
+2018-10-03 12:18:13.911 +02:00 [Debug] Sending Line "250 <luca.schiavon@aquest.it> OK"
+2018-10-03 12:18:13.911 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@aquest.it>"
+2018-10-03 12:18:13.911 +02:00 [Debug] Sending Line "250 <luca.schiavon@aquest.it> OK"
+2018-10-03 12:18:13.911 +02:00 [Debug] Received Line "DATA"
+2018-10-03 12:18:13.911 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-10-03 12:18:13.913 +02:00 [Debug] Sending Line "250 OK"
+2018-10-03 12:18:13.916 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20181003121813913-7c7436.eml"
+2018-10-03 12:18:13.920 +02:00 [Information] New Message "03/10/2018 12:18:13 (4.2KB)" Arrived -- Running Rules
+2018-10-03 12:18:39.191 +02:00 [Debug] Connection 2 Closed
+2018-10-03 12:19:09.773 +02:00 [Debug] Sending Line "220 telmor"
+2018-10-03 12:19:09.773 +02:00 [Debug] New Connection 3 from "127.0.0.1:53092"
+2018-10-03 12:19:09.773 +02:00 [Debug] Received Line "EHLO TELMOR"
+2018-10-03 12:19:09.774 +02:00 [Debug] Sending Line "250-telmor"
+2018-10-03 12:19:09.774 +02:00 [Debug] Sending Line "250-SMTPUTF8"
+2018-10-03 12:19:09.774 +02:00 [Debug] Sending Line "250-8BITMIME"
+2018-10-03 12:19:09.774 +02:00 [Debug] Sending Line "250 OK"
+2018-10-03 12:19:09.774 +02:00 [Debug] Received Line "MAIL FROM:<luca.schiavon@aquest.it>"
+2018-10-03 12:19:09.774 +02:00 [Debug] Sending Line "250 <luca.schiavon@aquest.it> OK"
+2018-10-03 12:19:09.774 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@aquest.it>"
+2018-10-03 12:19:09.774 +02:00 [Debug] Sending Line "250 <luca.schiavon@aquest.it> OK"
+2018-10-03 12:19:09.775 +02:00 [Debug] Received Line "DATA"
+2018-10-03 12:19:09.775 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-10-03 12:19:09.775 +02:00 [Debug] Sending Line "250 OK"
+2018-10-03 12:19:09.777 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20181003121909776-f3ecbc.eml"
+2018-10-03 12:19:09.777 +02:00 [Information] New Message "03/10/2018 12:19:09 (4.2KB)" Arrived -- Running Rules
+2018-10-03 12:20:04.378 +02:00 [Debug] Received Line "MAIL FROM:<luca.schiavon@aquest.it>"
+2018-10-03 12:20:04.378 +02:00 [Debug] Sending Line "250 <luca.schiavon@aquest.it> OK"
+2018-10-03 12:20:04.378 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@aquest.it>"
+2018-10-03 12:20:04.378 +02:00 [Debug] Sending Line "250 <luca.schiavon@aquest.it> OK"
+2018-10-03 12:20:04.379 +02:00 [Debug] Received Line "DATA"
+2018-10-03 12:20:04.379 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-10-03 12:20:04.379 +02:00 [Debug] Sending Line "250 OK"
+2018-10-03 12:20:04.381 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20181003122004380-887022.eml"
+2018-10-03 12:20:04.381 +02:00 [Information] New Message "03/10/2018 12:20:04 (4.2KB)" Arrived -- Running Rules
+2018-10-03 12:22:33.664 +02:00 [Debug] Connection 3 Closed
+2018-10-03 12:27:54.905 +02:00 [Debug] Status: 0 Connections "29MB" Memory Used
+2018-10-03 12:47:54.861 +02:00 [Debug] Status: 0 Connections "27,1MB" Memory Used
+2018-10-03 13:07:54.821 +02:00 [Debug] Status: 0 Connections "23,8MB" Memory Used
+2018-10-03 13:27:54.793 +02:00 [Debug] Status: 0 Connections "11,1MB" Memory Used
+2018-10-03 13:47:54.741 +02:00 [Debug] Status: 0 Connections "14,4MB" Memory Used
+2018-10-03 14:07:54.669 +02:00 [Debug] Status: 0 Connections "14,5MB" Memory Used
+2018-10-03 14:27:54.639 +02:00 [Debug] Status: 0 Connections "14,6MB" Memory Used
+2018-10-03 14:47:54.610 +02:00 [Debug] Status: 0 Connections "14,8MB" Memory Used
+2018-10-03 15:07:54.566 +02:00 [Debug] Status: 0 Connections "14,8MB" Memory Used
+2018-10-03 15:27:54.521 +02:00 [Debug] Status: 0 Connections "14,8MB" Memory Used
+2018-10-03 15:47:54.467 +02:00 [Debug] Status: 0 Connections "14,9MB" Memory Used
+2018-10-03 16:07:54.434 +02:00 [Debug] Status: 0 Connections "14,9MB" Memory Used
+2018-10-03 16:27:54.394 +02:00 [Debug] Status: 0 Connections "15,1MB" Memory Used
+2018-10-03 16:47:54.340 +02:00 [Debug] Status: 0 Connections "15,4MB" Memory Used
+2018-10-03 17:07:54.296 +02:00 [Debug] Status: 0 Connections "15,7MB" Memory Used
+2018-10-03 17:27:54.249 +02:00 [Debug] Status: 0 Connections "15,8MB" Memory Used
+2018-10-03 17:47:54.193 +02:00 [Debug] Status: 0 Connections "15,8MB" Memory Used
+2018-10-03 18:07:54.126 +02:00 [Debug] Status: 0 Connections "15,8MB" Memory Used
+2018-10-03 18:27:54.094 +02:00 [Debug] Status: 0 Connections "15,8MB" Memory Used

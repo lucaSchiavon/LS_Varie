@@ -1,0 +1,64 @@
+2018-10-10 08:57:10.685 +02:00 [Debug] Status: 0 Connections "16,4MB" Memory Used
+2018-10-10 09:17:11.087 +02:00 [Debug] Status: 0 Connections "16,8MB" Memory Used
+2018-10-10 09:37:11.050 +02:00 [Debug] Status: 0 Connections "16,8MB" Memory Used
+2018-10-10 09:57:11.018 +02:00 [Debug] Status: 0 Connections "16,8MB" Memory Used
+2018-10-10 10:17:10.981 +02:00 [Debug] Status: 0 Connections "16,8MB" Memory Used
+2018-10-10 10:37:10.937 +02:00 [Debug] Status: 0 Connections "16,8MB" Memory Used
+2018-10-10 10:57:10.891 +02:00 [Debug] Status: 0 Connections "16,8MB" Memory Used
+2018-10-10 11:17:10.847 +02:00 [Debug] Status: 0 Connections "16,8MB" Memory Used
+2018-10-10 11:22:08.452 +02:00 [Information] [Topshelf] Service is being shutdown
+2018-10-10 11:22:08.610 +02:00 [Information] [Topshelf] Stopped
+2018-10-10 11:22:08.637 +02:00 [Information] Stopping Server Papercut
+2018-10-10 11:22:08.683 +02:00 [Information] Stopping Server Smtp
+2018-10-10 11:22:42.344 +02:00 [Information] Configuration Result:
+"[Success] Name PapercutServerService
+[Success] DisplayName Papercut SMTP Service
+[Success] Description Papercut SMTP Backend Service
+[Success] ServiceName PapercutServerService"
+2018-10-10 11:22:42.430 +02:00 [Information] "Topshelf" v"3.3.154.0", .NET Framework v"4.0.30319.42000"
+2018-10-10 11:22:42.496 +02:00 [Debug] Started by the Windows services process
+2018-10-10 11:22:42.496 +02:00 [Debug] Running as a service, creating service host.
+2018-10-10 11:22:42.498 +02:00 [Information] Starting as a Windows service
+2018-10-10 11:22:42.500 +02:00 [Debug] [Topshelf] Starting up as a windows service application
+2018-10-10 11:22:42.502 +02:00 [Information] [Topshelf] Starting
+2018-10-10 11:22:42.503 +02:00 [Debug] [Topshelf] Current Directory: "C:\Program Files (x86)\Changemaker Studios\Papercut"
+2018-10-10 11:22:42.503 +02:00 [Debug] [Topshelf] Arguments: ""
+2018-10-10 11:22:42.544 +02:00 [Information] Publishing PapercutServicePreStartEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client
+2018-10-10 11:22:43.624 +02:00 [Information] [Topshelf] Started
+2018-10-10 11:22:44.633 +02:00 [Information] Starting Server Smtp
+2018-10-10 11:22:44.633 +02:00 [Information] Starting Server Papercut
+2018-10-10 11:22:44.639 +02:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37403
+2018-10-10 11:22:44.639 +02:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2018-10-10 11:22:44.650 +02:00 [Information] Running Plug-In "WebUI" "1.0.0" "Provides a web UI to manage the email messages for Papercut."
+2018-10-10 11:22:44.650 +02:00 [Information] Running Plug-In "Verbose (JSON) Serilog Logging" "5.1.23.0" "Verbose (JSON) Serilog Logging Support for Papercut"
+2018-10-10 11:22:44.650 +02:00 [Information] Running Plug-In "Papercut Seq Logging" "1.0.0.0" "Papercut Serilog to Seq (http://getseq.net) local instance"
+2018-10-10 11:22:44.839 +02:00 [Information] WebUI server started at port 37408.
+2018-10-10 11:22:44.840 +02:00 [Information] Publishing PapercutServiceReadyEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client
+2018-10-10 11:33:46.739 +02:00 [Information] [Topshelf] Service is being shutdown
+2018-10-10 11:33:46.742 +02:00 [Information] [Topshelf] Stopped
+2018-10-10 11:33:46.752 +02:00 [Information] Stopping Server Papercut
+2018-10-10 11:33:46.771 +02:00 [Information] Stopping Server Smtp
+2018-10-10 11:34:20.170 +02:00 [Information] Configuration Result:
+"[Success] Name PapercutServerService
+[Success] DisplayName Papercut SMTP Service
+[Success] Description Papercut SMTP Backend Service
+[Success] ServiceName PapercutServerService"
+2018-10-10 11:34:20.249 +02:00 [Information] "Topshelf" v"3.3.154.0", .NET Framework v"4.0.30319.42000"
+2018-10-10 11:34:20.304 +02:00 [Debug] Started by the Windows services process
+2018-10-10 11:34:20.304 +02:00 [Debug] Running as a service, creating service host.
+2018-10-10 11:34:20.306 +02:00 [Information] Starting as a Windows service
+2018-10-10 11:34:20.308 +02:00 [Debug] [Topshelf] Starting up as a windows service application
+2018-10-10 11:34:20.309 +02:00 [Information] [Topshelf] Starting
+2018-10-10 11:34:20.310 +02:00 [Debug] [Topshelf] Current Directory: "C:\Program Files (x86)\Changemaker Studios\Papercut"
+2018-10-10 11:34:20.310 +02:00 [Debug] [Topshelf] Arguments: ""
+2018-10-10 11:34:20.347 +02:00 [Information] Publishing PapercutServicePreStartEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client
+2018-10-10 11:34:21.436 +02:00 [Information] [Topshelf] Started
+2018-10-10 11:34:22.443 +02:00 [Information] Starting Server Smtp
+2018-10-10 11:34:22.443 +02:00 [Information] Starting Server Papercut
+2018-10-10 11:34:22.446 +02:00 [Information] Server Ready - Listening for New Connections "127.0.0.1":37403
+2018-10-10 11:34:22.446 +02:00 [Information] Server Ready - Listening for New Connections "0.0.0.0":25
+2018-10-10 11:34:22.456 +02:00 [Information] Running Plug-In "WebUI" "1.0.0" "Provides a web UI to manage the email messages for Papercut."
+2018-10-10 11:34:22.457 +02:00 [Information] Running Plug-In "Verbose (JSON) Serilog Logging" "5.1.23.0" "Verbose (JSON) Serilog Logging Support for Papercut"
+2018-10-10 11:34:22.457 +02:00 [Information] Running Plug-In "Papercut Seq Logging" "1.0.0.0" "Papercut Serilog to Seq (http://getseq.net) local instance"
+2018-10-10 11:34:22.561 +02:00 [Information] WebUI server started at port 37408.
+2018-10-10 11:34:22.561 +02:00 [Information] Publishing PapercutServiceReadyEvent { AppMeta: ApplicationMeta { AppName: "Papercut.Service", AppVersion: "5.1.23" } } to the Papercut Client

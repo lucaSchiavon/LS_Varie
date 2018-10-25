@@ -1,0 +1,90 @@
+2018-08-29 09:27:20.807 +02:00 [Debug] Status: 0 Connections "28MB" Memory Used
+2018-08-29 09:47:21.396 +02:00 [Debug] Status: 0 Connections "28,5MB" Memory Used
+2018-08-29 10:07:21.387 +02:00 [Debug] Status: 0 Connections "28,5MB" Memory Used
+2018-08-29 10:27:21.360 +02:00 [Debug] Status: 0 Connections "28,5MB" Memory Used
+2018-08-29 10:47:21.340 +02:00 [Debug] Status: 0 Connections "28,5MB" Memory Used
+2018-08-29 11:07:21.293 +02:00 [Debug] Status: 0 Connections "28,5MB" Memory Used
+2018-08-29 11:27:21.208 +02:00 [Debug] Status: 0 Connections "28,5MB" Memory Used
+2018-08-29 11:47:21.218 +02:00 [Debug] Status: 0 Connections "28,4MB" Memory Used
+2018-08-29 12:07:21.167 +02:00 [Debug] Status: 0 Connections "28,5MB" Memory Used
+2018-08-29 12:27:21.127 +02:00 [Debug] Status: 0 Connections "28,5MB" Memory Used
+2018-08-29 12:47:21.086 +02:00 [Debug] Status: 0 Connections "28,5MB" Memory Used
+2018-08-29 13:07:21.035 +02:00 [Debug] Status: 0 Connections "25,5MB" Memory Used
+2018-08-29 13:27:20.998 +02:00 [Debug] Status: 0 Connections "25,8MB" Memory Used
+2018-08-29 13:47:20.946 +02:00 [Debug] Status: 0 Connections "25,9MB" Memory Used
+2018-08-29 14:07:20.889 +02:00 [Debug] Status: 0 Connections "25,9MB" Memory Used
+2018-08-29 14:27:00.084 +02:00 [Debug] Sending Line "220 telmor"
+2018-08-29 14:27:00.085 +02:00 [Debug] Received Line "HELO TELMOR.AQDOMAIN.LOCAL"
+2018-08-29 14:27:00.086 +02:00 [Debug] Sending Line "250 telmor"
+2018-08-29 14:27:00.086 +02:00 [Debug] New Connection 3 from "127.0.0.1:55259"
+2018-08-29 14:27:00.087 +02:00 [Debug] Received Line "MAIL FROM:<wordpress@localhost>"
+2018-08-29 14:27:00.087 +02:00 [Debug] Sending Line "250 <wordpress@localhost> OK"
+2018-08-29 14:27:00.088 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@alice.it>"
+2018-08-29 14:27:00.088 +02:00 [Debug] Sending Line "250 <luca.schiavon@alice.it> OK"
+2018-08-29 14:27:00.088 +02:00 [Debug] Received Line "DATA"
+2018-08-29 14:27:00.088 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-08-29 14:27:00.089 +02:00 [Debug] Sending Line "250 OK"
+2018-08-29 14:27:00.099 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180829142700095-39eac3.eml"
+2018-08-29 14:27:00.105 +02:00 [Information] New Message "29/08/2018 14:27:00 (797B)" Arrived -- Running Rules
+2018-08-29 14:27:00.105 +02:00 [Debug] Received Line "QUIT"
+2018-08-29 14:27:00.105 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-08-29 14:27:00.105 +02:00 [Debug] Connection 3 Closed
+2018-08-29 14:27:16.178 +02:00 [Debug] Sending Line "220 telmor"
+2018-08-29 14:27:16.179 +02:00 [Debug] New Connection 4 from "127.0.0.1:55279"
+2018-08-29 14:27:16.179 +02:00 [Debug] Received Line "HELO TELMOR.AQDOMAIN.LOCAL"
+2018-08-29 14:27:16.179 +02:00 [Debug] Sending Line "250 telmor"
+2018-08-29 14:27:16.179 +02:00 [Debug] Received Line "MAIL FROM:<wordpress@localhost>"
+2018-08-29 14:27:16.180 +02:00 [Debug] Sending Line "250 <wordpress@localhost> OK"
+2018-08-29 14:27:16.180 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@alice.it>"
+2018-08-29 14:27:16.180 +02:00 [Debug] Sending Line "250 <luca.schiavon@alice.it> OK"
+2018-08-29 14:27:16.181 +02:00 [Debug] Received Line "DATA"
+2018-08-29 14:27:16.181 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-08-29 14:27:16.181 +02:00 [Debug] Sending Line "250 OK"
+2018-08-29 14:27:16.184 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180829142716183-62fd9a.eml"
+2018-08-29 14:27:16.185 +02:00 [Information] New Message "29/08/2018 14:27:16 (1.1KB)" Arrived -- Running Rules
+2018-08-29 14:27:16.185 +02:00 [Debug] Received Line "QUIT"
+2018-08-29 14:27:16.185 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-08-29 14:27:16.185 +02:00 [Debug] Connection 4 Closed
+2018-08-29 14:27:20.809 +02:00 [Debug] Status: 0 Connections "27MB" Memory Used
+2018-08-29 14:32:36.536 +02:00 [Debug] Sending Line "220 telmor"
+2018-08-29 14:32:36.537 +02:00 [Debug] New Connection 5 from "127.0.0.1:55362"
+2018-08-29 14:32:36.537 +02:00 [Debug] Received Line "HELO TELMOR.AQDOMAIN.LOCAL"
+2018-08-29 14:32:36.538 +02:00 [Debug] Sending Line "250 telmor"
+2018-08-29 14:32:36.538 +02:00 [Debug] Received Line "MAIL FROM:<wordpress@localhost>"
+2018-08-29 14:32:36.538 +02:00 [Debug] Sending Line "250 <wordpress@localhost> OK"
+2018-08-29 14:32:36.538 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@alice.it>"
+2018-08-29 14:32:36.539 +02:00 [Debug] Sending Line "250 <luca.schiavon@alice.it> OK"
+2018-08-29 14:32:36.540 +02:00 [Debug] Received Line "DATA"
+2018-08-29 14:32:36.540 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-08-29 14:32:36.541 +02:00 [Debug] Sending Line "250 OK"
+2018-08-29 14:32:36.542 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180829143236541-6342bd.eml"
+2018-08-29 14:32:36.543 +02:00 [Information] New Message "29/08/2018 14:32:36 (813B)" Arrived -- Running Rules
+2018-08-29 14:32:36.543 +02:00 [Debug] Received Line "QUIT"
+2018-08-29 14:32:36.543 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-08-29 14:32:36.543 +02:00 [Debug] Connection 5 Closed
+2018-08-29 14:32:54.955 +02:00 [Debug] Sending Line "220 telmor"
+2018-08-29 14:32:54.956 +02:00 [Debug] New Connection 6 from "127.0.0.1:55383"
+2018-08-29 14:32:54.957 +02:00 [Debug] Received Line "HELO TELMOR.AQDOMAIN.LOCAL"
+2018-08-29 14:32:54.958 +02:00 [Debug] Sending Line "250 telmor"
+2018-08-29 14:32:54.958 +02:00 [Debug] Received Line "MAIL FROM:<wordpress@localhost>"
+2018-08-29 14:32:54.958 +02:00 [Debug] Sending Line "250 <wordpress@localhost> OK"
+2018-08-29 14:32:54.959 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@alice.it>"
+2018-08-29 14:32:54.959 +02:00 [Debug] Sending Line "250 <luca.schiavon@alice.it> OK"
+2018-08-29 14:32:54.960 +02:00 [Debug] Received Line "DATA"
+2018-08-29 14:32:54.961 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-08-29 14:32:54.961 +02:00 [Debug] Sending Line "250 OK"
+2018-08-29 14:32:54.965 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20180829143254964-341ef7.eml"
+2018-08-29 14:32:54.966 +02:00 [Information] New Message "29/08/2018 14:32:54 (1.2KB)" Arrived -- Running Rules
+2018-08-29 14:32:54.967 +02:00 [Debug] Received Line "QUIT"
+2018-08-29 14:32:54.968 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-08-29 14:32:54.968 +02:00 [Debug] Connection 6 Closed
+2018-08-29 14:47:20.799 +02:00 [Debug] Status: 0 Connections "27,5MB" Memory Used
+2018-08-29 15:07:20.754 +02:00 [Debug] Status: 0 Connections "27,7MB" Memory Used
+2018-08-29 15:27:20.709 +02:00 [Debug] Status: 0 Connections "27,7MB" Memory Used
+2018-08-29 15:47:20.663 +02:00 [Debug] Status: 0 Connections "27,7MB" Memory Used
+2018-08-29 16:07:20.609 +02:00 [Debug] Status: 0 Connections "26,7MB" Memory Used
+2018-08-29 16:27:20.578 +02:00 [Debug] Status: 0 Connections "26,7MB" Memory Used
+2018-08-29 16:47:20.545 +02:00 [Debug] Status: 0 Connections "26,7MB" Memory Used
+2018-08-29 17:07:20.487 +02:00 [Debug] Status: 0 Connections "22,7MB" Memory Used
+2018-08-29 17:27:20.437 +02:00 [Debug] Status: 0 Connections "22,8MB" Memory Used
+2018-08-29 17:47:20.392 +02:00 [Debug] Status: 0 Connections "22,8MB" Memory Used

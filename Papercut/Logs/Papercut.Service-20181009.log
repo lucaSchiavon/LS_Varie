@@ -1,0 +1,43 @@
+2018-10-09 09:04:18.642 +02:00 [Debug] Status: 0 Connections "11,1MB" Memory Used
+2018-10-09 09:24:18.631 +02:00 [Debug] Status: 0 Connections "11,7MB" Memory Used
+2018-10-09 09:44:18.596 +02:00 [Debug] Status: 0 Connections "11,7MB" Memory Used
+2018-10-09 10:04:18.540 +02:00 [Debug] Status: 0 Connections "11,6MB" Memory Used
+2018-10-09 10:24:18.491 +02:00 [Debug] Status: 0 Connections "11,6MB" Memory Used
+2018-10-09 10:44:18.456 +02:00 [Debug] Status: 0 Connections "11,2MB" Memory Used
+2018-10-09 11:04:18.407 +02:00 [Debug] Status: 0 Connections "11,3MB" Memory Used
+2018-10-09 11:24:18.362 +02:00 [Debug] Status: 0 Connections "11,3MB" Memory Used
+2018-10-09 11:44:18.325 +02:00 [Debug] Status: 0 Connections "9,7MB" Memory Used
+2018-10-09 12:04:18.265 +02:00 [Debug] Status: 0 Connections "8,6MB" Memory Used
+2018-10-09 12:24:18.219 +02:00 [Debug] Status: 0 Connections "8MB" Memory Used
+2018-10-09 12:44:18.175 +02:00 [Debug] Status: 0 Connections "9,9MB" Memory Used
+2018-10-09 13:04:18.128 +02:00 [Debug] Status: 0 Connections "10,1MB" Memory Used
+2018-10-09 13:24:18.082 +02:00 [Debug] Status: 0 Connections "10,2MB" Memory Used
+2018-10-09 13:44:18.025 +02:00 [Debug] Status: 0 Connections "10,3MB" Memory Used
+2018-10-09 14:04:17.991 +02:00 [Debug] Status: 0 Connections "10,4MB" Memory Used
+2018-10-09 14:24:17.946 +02:00 [Debug] Status: 0 Connections "10,6MB" Memory Used
+2018-10-09 14:44:17.900 +02:00 [Debug] Status: 0 Connections "10,8MB" Memory Used
+2018-10-09 15:04:17.855 +02:00 [Debug] Status: 0 Connections "10,9MB" Memory Used
+2018-10-09 15:20:01.600 +02:00 [Debug] Sending Line "220 telmor"
+2018-10-09 15:20:01.602 +02:00 [Debug] Received Line "HELO TELMOR.AQDOMAIN.LOCAL"
+2018-10-09 15:20:01.603 +02:00 [Debug] New Connection 4 from "127.0.0.1:52302"
+2018-10-09 15:20:01.622 +02:00 [Debug] Sending Line "250 telmor"
+2018-10-09 15:20:01.622 +02:00 [Debug] Received Line "MAIL FROM:<wordpress@localhost>"
+2018-10-09 15:20:01.623 +02:00 [Debug] Sending Line "250 <wordpress@localhost> OK"
+2018-10-09 15:20:01.623 +02:00 [Debug] Received Line "RCPT TO:<luca.schiavon@alice.it>"
+2018-10-09 15:20:01.624 +02:00 [Debug] Sending Line "250 <luca.schiavon@alice.it> OK"
+2018-10-09 15:20:01.625 +02:00 [Debug] Received Line "DATA"
+2018-10-09 15:20:01.626 +02:00 [Debug] Sending Line "354 Start mail input; end with <CRLF>.<CRLF>"
+2018-10-09 15:20:01.627 +02:00 [Debug] Sending Line "250 OK"
+2018-10-09 15:20:01.662 +02:00 [Information] Successfully Saved email message: "C:\Program Files (x86)\Changemaker Studios\Papercut\Incoming\20181009152001657-eafbfa.eml"
+2018-10-09 15:20:01.675 +02:00 [Information] New Message "09/10/2018 15:20:01 (786B)" Arrived -- Running Rules
+2018-10-09 15:20:01.675 +02:00 [Debug] Received Line "QUIT"
+2018-10-09 15:20:01.675 +02:00 [Debug] Sending Line "221 Goodbye!"
+2018-10-09 15:20:01.677 +02:00 [Debug] Connection 4 Closed
+2018-10-09 15:24:17.813 +02:00 [Debug] Status: 0 Connections "14,8MB" Memory Used
+2018-10-09 15:44:17.767 +02:00 [Debug] Status: 0 Connections "15MB" Memory Used
+2018-10-09 16:04:17.721 +02:00 [Debug] Status: 0 Connections "15,1MB" Memory Used
+2018-10-09 16:24:17.677 +02:00 [Debug] Status: 0 Connections "15,2MB" Memory Used
+2018-10-09 16:44:17.613 +02:00 [Debug] Status: 0 Connections "15,3MB" Memory Used
+2018-10-09 17:04:17.569 +02:00 [Debug] Status: 0 Connections "16MB" Memory Used
+2018-10-09 17:24:17.524 +02:00 [Debug] Status: 0 Connections "16MB" Memory Used
+2018-10-09 17:44:17.489 +02:00 [Debug] Status: 0 Connections "16MB" Memory Used

@@ -1,0 +1,24 @@
+Subject: Nuovo sito WordPress
+To: luca.schiavon@alice.it
+Date: Tue, 9 Oct 2018 13:20:01 +0000
+From: WordPress <wordpress@localhost>
+Message-ID: <4af7088008c666e08ef663e313f8a346@localhost>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Il tuo nuovo sito WordPress ? stato installato con successo in:
+
+http://localhost/sydneytest
+
+Puoi effettuare l'accesso con l'utente amministratore usando questi dati:
+
+Nome utente: luca
+Password: La password che hai scelto durante l'installazione.
+Accedi qui http://localhost/sydneytest/wp-login.php
+
+Ti auguriamo buon divertimento con il tuo nuovo sito. Grazie!
+
+--Il Team di WordPress
+https://it.wordpress.org/
